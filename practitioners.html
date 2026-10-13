@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practitioners – Natural Remedies Directory</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Natural Remedies Directory</a>
+      <ul class="menu">
+        
+        <li><a href="index.html">Home</a></li>
+        
+        <li><a href="remedies.html">Remedies</a></li>
+        
+        <li><a href="ailments.html">Ailments</a></li>
+        
+        <li><a href="therapies.html">Therapies</a></li>
+        
+        <li><a href="protocols.html">Protocols</a></li>
+        
+        <li><a href="products.html">Products</a></li>
+        
+        <li><a href="testimonials.html">Testimonials</a></li>
+        
+        <li><a href="references.html">References</a></li>
+        
+        <li><a href="about.html">About</a></li>
+        
+      </ul>
+      <div class="search-box">
+        <input type="text" id="header-search" placeholder="Search remedies, ailments..." autocomplete="off" />
+        <a href="search.html" style="color:rgba(255,255,255,0.7);">🔍</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+<h1>Practitioners</h1>
+
+
+<div class="filter-bar">
+  <h4>Filter by tag:</h4>
+  
+  
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+  
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+  
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+  
+  <span class="tag filter-tag active" data-filter="all">All (3)</span>
+  
+  <span class="tag filter-tag" data-filter="tag-naturopathic-doctor">naturopathic-doctor</span>
+  
+  <span class="tag filter-tag" data-filter="tag-herbalism">herbalism</span>
+  
+  <span class="tag filter-tag" data-filter="tag-clinical-nutrition">clinical-nutrition</span>
+  
+  <span class="tag filter-tag" data-filter="tag-functional-medicine">functional-medicine</span>
+  
+  <span class="tag filter-tag" data-filter="tag-chiropractic">chiropractic</span>
+  
+  <span class="tag filter-tag" data-filter="tag-spinal-health">spinal-health</span>
+  
+  <span class="tag filter-tag" data-filter="tag-nutrition">nutrition</span>
+  
+  <span class="tag filter-tag" data-filter="tag-detoxification">detoxification</span>
+  
+  <span class="tag filter-tag" data-filter="tag-acupuncture">acupuncture</span>
+  
+  <span class="tag filter-tag" data-filter="tag-tcm">tcm</span>
+  
+  <span class="tag filter-tag" data-filter="tag-chinese-herbalism">chinese-herbalism</span>
+  
+  <span class="tag filter-tag" data-filter="tag-qi-gong">qi-gong</span>
+  
+</div>
+
+<ul id="item-list">
+
+  <li class="item-card" data-tags="tag-naturopathic-doctor tag-herbalism tag-clinical-nutrition tag-functional-medicine ">
+    
+      <div class="card">
+        <a href="practitioner_001.html"><strong>Dr. Amara Okafor, ND</strong></a>
+        
+        <span class="tag evidence-peer_reviewed">peer_reviewed</span>
+        
+        <br>
+        Board-certified naturopathic physician with 18 years of clinical experience in botanical medicine, functional nutrition, and chronic disease management.
+        
+        
+        
+        <div class="tags" style="margin: 0.25rem 0 0;">
+          
+          <span class="tag">naturopathic-doctor</span>
+          
+          <span class="tag">herbalism</span>
+          
+          <span class="tag">clinical-nutrition</span>
+          
+          <span class="tag">functional-medicine</span>
+          
+        </div>
+        
+        
+      </div>
+    
+  </li>
+
+  <li class="item-card" data-tags="tag-chiropractic tag-spinal-health tag-nutrition tag-detoxification ">
+    
+      <div class="card">
+        <a href="practitioner_003.html"><strong>Dr. Elena Vasquez, DC</strong></a>
+        
+        <span class="tag evidence-peer_reviewed">peer_reviewed</span>
+        
+        <br>
+        Chiropractic physician specializing in spinal biomechanics, nutritional detoxification, and conservative management of musculoskeletal conditions.
+        
+        
+        
+        <div class="tags" style="margin: 0.25rem 0 0;">
+          
+          <span class="tag">chiropractic</span>
+          
+          <span class="tag">spinal-health</span>
+          
+          <span class="tag">nutrition</span>
+          
+          <span class="tag">detoxification</span>
+          
+        </div>
+        
+        
+      </div>
+    
+  </li>
+
+  <li class="item-card" data-tags="tag-acupuncture tag-tcm tag-chinese-herbalism tag-qi-gong ">
+    
+      <div class="card">
+        <a href="practitioner_002.html"><strong>Master Chen Wei, L.Ac.</strong></a>
+        
+        <span class="tag evidence-traditional">traditional</span>
+        
+        <br>
+        Traditional Chinese Medicine practitioner with 30 years of experience in acupuncture, herbal formulas, and qi cultivation practices.
+        
+        
+        
+        <div class="tags" style="margin: 0.25rem 0 0;">
+          
+          <span class="tag">acupuncture</span>
+          
+          <span class="tag">tcm</span>
+          
+          <span class="tag">chinese-herbalism</span>
+          
+          <span class="tag">qi-gong</span>
+          
+        </div>
+        
+        
+      </div>
+    
+  </li>
+
+</ul>
+
+
+<script>
+  document.querySelectorAll('.filter-tag').forEach(tag => {
+    tag.addEventListener('click', function() {
+      document.querySelectorAll('.filter-tag').forEach(t => t.classList.remove('active'));
+      this.classList.add('active');
+      const filter = this.getAttribute('data-filter');
+      document.querySelectorAll('.item-card').forEach(card => {
+        if (filter === 'all' || card.getAttribute('data-tags').includes(filter)) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>
+</main>
+  <footer><small>Research directory – not medical advice. All content is aggregated from public sources and labeled by evidence type.</small></footer>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protocols – Natural Remedies Directory</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Natural Remedies Directory</a>
+      <ul class="menu">
+        
+        <li><a href="index.html">Home</a></li>
+        
+        <li><a href="remedies.html">Remedies</a></li>
+        
+        <li><a href="ailments.html">Ailments</a></li>
+        
+        <li><a href="therapies.html">Therapies</a></li>
+        
+        <li><a href="protocols.html">Protocols</a></li>
+        
+        <li><a href="products.html">Products</a></li>
+        
+        <li><a href="testimonials.html">Testimonials</a></li>
+        
+        <li><a href="references.html">References</a></li>
+        
+        <li><a href="about.html">About</a></li>
+        
+      </ul>
+      <div class="search-box">
+        <input type="text" id="header-search" placeholder="Search remedies, ailments..." autocomplete="off" />
+        <a href="search.html" style="color:rgba(255,255,255,0.7);">🔍</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+<h1>Protocols</h1>
+
+
+<div class="filter-bar">
+  <h4>Filter by tag:</h4>
+  
+  
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+  
+    
+      
+        
+      
+    
+      
+    
+      
+        
+      
+    
+  
+  <span class="tag filter-tag active" data-filter="all">All (2)</span>
+  
+  <span class="tag filter-tag" data-filter="tag-heart-attack">heart-attack</span>
+  
+  <span class="tag filter-tag" data-filter="tag-embolism">embolism</span>
+  
+  <span class="tag filter-tag" data-filter="tag-first-aid">first-aid</span>
+  
+  <span class="tag filter-tag" data-filter="tag-stroke">stroke</span>
+  
+  <span class="tag filter-tag" data-filter="tag-emergency">emergency</span>
+  
+</div>
+
+<ul id="item-list">
+
+  <li class="item-card" data-tags="tag-heart-attack tag-embolism tag-first-aid ">
+    
+      <div class="card">
+        <a href="protocol_002.html"><strong>Cardiac/Embolism Emergency Protocol</strong></a>
+        
+        <span class="tag evidence-opinion">opinion</span>
+        
+        <br>
+        Standard CPR + 911, plus alternative recommendations from learninggnm.com: ice pack above ear on affected side during wait. Arterial events use right side; venous use left side.
+        
+        
+        
+        <div class="tags" style="margin: 0.25rem 0 0;">
+          
+          <span class="tag">heart-attack</span>
+          
+          <span class="tag">embolism</span>
+          
+          <span class="tag">first-aid</span>
+          
+        </div>
+        
+        
+      </div>
+    
+  </li>
+
+  <li class="item-card" data-tags="tag-stroke tag-first-aid tag-emergency ">
+    
+      <div class="card">
+        <a href="protocol_001.html"><strong>Stroke – ACV + Cayenne Emergency Protocol</strong></a>
+        
+        <span class="tag evidence-opinion">opinion</span>
+        
+        <br>
+        Take 1 ¼ cup Apple Cider Vinegar + 1 Tbsp Cayenne pepper; take ¼ tsp to 1 tsp every hour or two while awake. Add water for hydration. Continue 1-2 days for complete recovery. Source: Dr. Jennifer Daniels, dioxitube.com video 1:01:25.
+        
+        
+        
+        <div class="tags" style="margin: 0.25rem 0 0;">
+          
+          <span class="tag">stroke</span>
+          
+          <span class="tag">first-aid</span>
+          
+          <span class="tag">emergency</span>
+          
+        </div>
+        
+        
+      </div>
+    
+  </li>
+
+</ul>
+
+
+<script>
+  document.querySelectorAll('.filter-tag').forEach(tag => {
+    tag.addEventListener('click', function() {
+      document.querySelectorAll('.filter-tag').forEach(t => t.classList.remove('active'));
+      this.classList.add('active');
+      const filter = this.getAttribute('data-filter');
+      document.querySelectorAll('.item-card').forEach(card => {
+        if (filter === 'all' || card.getAttribute('data-tags').includes(filter)) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>
+</main>
+  <footer><small>Research directory – not medical advice. All content is aggregated from public sources and labeled by evidence type.</small></footer>
+</body>
+</html>
