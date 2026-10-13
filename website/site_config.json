@@ -1,0 +1,31 @@
+{
+  "site_name": "Natural Remedies Directory",
+  "base_url": "/",
+  "description": "Research-focused directory of natural remedy protocols, remedies, and conditions.",
+  "menu": [
+    {"title": "Home", "path": "index.html"},
+    {"title": "Remedies", "path": "remedies.html"},
+    {"title": "Ailments", "path": "ailments.html"},
+    {"title": "Therapies", "path": "therapies.html"},
+    {"title": "Protocols", "path": "protocols.html"},
+    {"title": "Products", "path": "products.html"},
+    {"title": "Testimonials", "path": "testimonials.html"},
+    {"title": "References", "path": "references.html"},
+    {"title": "About", "path": "about.html"}
+  ],
+  "categories": {
+    "remedies": {
+      "Herbal": ["remedy_002", "remedy_003"],
+      "Emergency": ["remedy_001"],
+      "Topical": []
+    },
+    "ailments": {
+      "Emergency": ["ailment_001"],
+      "Chronic": ["ailment_002"]
+    }
+  },
+  "modality_tags": [
+    "herbal", "tcm", "acupuncture", "nutritional", "emergency", "chronic",
+    "anti-inflammatory", "circulatory", "pain-relief", "gastrointestinal"
+  ]
+}

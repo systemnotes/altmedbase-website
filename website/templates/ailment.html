@@ -1,0 +1,164 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ item.title }}</h1>
+
+<div class="tags">
+  <span class="tag">{{ item.category }}</span>
+  {% for tag in item.tags %}
+  <span class="tag">{{ tag }}</span>
+  {% endfor %}
+</div>
+
+{% if item.evidence and item.evidence.grade %}
+<p><span class="field-label">Evidence:</span> Grade {{ item.evidence.grade }} ({{ item.evidence.source }})</p>
+{% elif item.evidence_type %}
+<p><span class="field-label">Evidence:</span> {{ item.evidence_type }}</p>
+{% endif %}
+
+<div class="section">
+  <h3>Summary</h3>
+  <p>{{ item.summary }}</p>
+</div>
+
+{% if item.symptoms %}
+<div class="section">
+  <h3>Symptoms</h3>
+  <ul>
+    {% for sym in item.symptoms %}
+    <li>{{ sym }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+{% if item.common_treatments or item.related_remedies %}
+<div class="section">
+  <h3>Remedies for This Condition</h3>
+  {% if item.common_treatments %}
+  {% set cure_lookup = {} %}
+  {% for c in data.remedies %}
+    {% set _ = cure_lookup.update({c.id: c}) %}
+  {% endfor %}
+  <ul>
+    {% for tx_id in item.common_treatments %}
+      {% set cure = cure_lookup.get(tx_id) %}
+      {% if cure %}
+      <li>
+        <a href="{{ get_url_for_item(cure.id) }}"><strong>{{ cure.title }}</strong></a>
+        {% if cure.summary %}<br><small>{{ cure.summary }}</small>{% endif %}
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% if item.related_remedies %}
+  <ul>
+    {% for rem_id in item.related_remedies %}
+      {% set rem = lookup.get(rem_id) %}
+      {% if rem %}
+      <li>
+        <a href="{{ get_url_for_item(rem_id) }}"><strong>{{ rem.title }}</strong></a>
+        {% if rem.summary %}<br><small>{{ rem.summary }}</small>{% endif %}
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  {% endif %}
+</div>
+{% endif %}
+
+{% if item.affected_body_systems %}
+<div class="section">
+  <h3>Affected Body Systems</h3>
+  <ul>
+    {% for bs in item.affected_body_systems %}
+    <li>{{ bs }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+{% if item.severity_levels %}
+<div class="section">
+  <h3>Severity Levels</h3>
+  <ul>
+    {% for level in item.severity_levels %}
+    <li>{{ level }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+{% if reverse_relationships.related_therapies or reverse_relationships.related_practitioners or reverse_relationships.related_products %}
+<div class="section">
+  <h3>Other Treatment Options</h3>
+  <ul>
+    {% if reverse_relationships.related_therapies %}
+    {% for t_id, t_title, t_summary in reverse_relationships.related_therapies %}
+    <li>
+      <a href="{{ get_url_for_item(t_id) }}"><strong>{{ t_title }}</strong></a>
+      {% if t_summary %}<br><small>{{ t_summary }}</small>{% endif %}
+    </li>
+    {% endfor %}
+    {% endif %}
+    {% if reverse_relationships.related_practitioners %}
+    {% for p_id, p_title, p_summary in reverse_relationships.related_practitioners %}
+    <li>
+      <a href="{{ get_url_for_item(p_id) }}"><strong>{{ p_title }}</strong></a>
+      {% if p_summary %}<br><small>{{ p_summary }}</small>{% endif %}
+    </li>
+    {% endfor %}
+    {% endif %}
+    {% if reverse_relationships.related_products %}
+    {% for p_id, p_title, p_summary in reverse_relationships.related_products %}
+    <li>
+      <a href="{{ get_url_for_item(p_id) }}"><strong>{{ p_title }}</strong></a>
+      {% if p_summary %}<br><small>{{ p_summary }}</small>{% endif %}
+    </li>
+    {% endfor %}
+    {% endif %}
+  </ul>
+</div>
+{% endif %}
+
+{% if reverse_relationships.protocols %}
+<div class="section">
+  <h3>Related Protocols</h3>
+  <ul>
+    {% for proto_id, proto_title, proto_summary in reverse_relationships.protocols %}
+    <li>
+      <a href="{{ get_url_for_item(proto_id) }}"><strong>{{ proto_title }}</strong></a>
+      {% if proto_summary %}<br><small>{{ proto_summary }}</small>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+{% if reverse_relationships.related_remedies %}
+<div class="section">
+  <h3>Other Remedies for This Condition</h3>
+  <ul>
+    {% for rem_id, rem_title, rem_summary in reverse_relationships.related_remedies %}
+    <li>
+      <a href="{{ get_url_for_item(rem_id) }}"><strong>{{ rem_title }}</strong></a>
+      {% if rem_summary %}<br><small>{{ rem_summary }}</small>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+{% if item.source_links %}
+<div class="section">
+  <h3>Sources</h3>
+  <ul>
+    {% for link in item.source_links %}
+    <li><a href="{{ link }}" target="_blank">{{ link }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+<p><small>Research directory – not medical advice.</small></p>
+{% endblock %}

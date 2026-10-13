@@ -1,0 +1,160 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ item.title }}</h1>
+
+<div class="tags">
+  <span class="tag">{{ item.category }}</span>
+  {% for tag in item.tags %}
+  <span class="tag">{{ tag }}</span>
+  {% endfor %}
+</div>
+
+{% if item.evidence and item.evidence.grade %}
+<p><span class="field-label">Evidence:</span> Grade {{ item.evidence.grade }} ({{ item.evidence.source }})</p>
+{% elif item.evidence_type %}
+<p><span class="field-label">Evidence:</span> {{ item.evidence_type }}</p>
+{% endif %}
+
+<div class="section">
+  <h3>Summary</h3>
+  <p>{{ item.summary }}</p>
+</div>
+
+{% if item.indications %}
+<div class="section">
+  <h3>Indications</h3>
+  <ul>
+    {% for ind in item.indications %}
+    <li>{{ ind }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+{% if item.contraindications %}
+<div class="section">
+  <h3>Contraindications</h3>
+  <ul>
+    {% for ci in item.contraindications %}
+    <li>{{ ci }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+{% if item.preparations %}
+<div class="section">
+  <h3>Preparations</h3>
+  <ul>
+    {% for prep in item.preparations %}
+    <li>{{ prep }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+{% if item.body_systems_affected %}
+<div class="section">
+  <h3>Body Systems Affected</h3>
+  <ul>
+    {% for bs in item.body_systems_affected %}
+    <li>{{ bs }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+{% if item.botanical_name or item.family %}
+<div class="section">
+  <h3>Botanical Information</h3>
+  {% if item.botanical_name %}
+  <p><span class="field-label">Botanical Name:</span> {{ item.botanical_name }}</p>
+  {% endif %}
+  {% if item.family %}
+  <p><span class="field-label">Family:</span> {{ item.family }}</p>
+  {% endif %}
+  {% if item.common_names %}
+  <p><span class="field-label">Common Names:</span> {{ item.common_names | join(', ') }}</p>
+  {% endif %}
+  {% if item.parts_used %}
+  <p><span class="field-label">Parts Used:</span> {{ item.parts_used | join(', ') }}</p>
+  {% endif %}
+</div>
+{% endif %}
+
+{% if reverse_relationships.common_treatments %}
+<div class="section">
+  <h3>Treats These Ailments</h3>
+  <p>Conditions listed as treatable by this remedy:</p>
+  <ul>
+    {% for tx_ail_id, tx_ail_title, tx_ail_summary in reverse_relationships.common_treatments %}
+    <li>
+      <a href="{{ get_url_for_item(tx_ail_id) }}"><strong>{{ tx_ail_title }}</strong></a>
+      {% if tx_ail_summary %}<br><small>{{ tx_ail_summary }}</small>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+{% if item.protocols %}
+<div class="section">
+  <h3>Related Protocols</h3>
+  <ul>
+    {% for proto_id, proto_title, proto_summary in related_with_info.protocols %}
+    <li>
+      <a href="{{ get_url_for_item(proto_id) }}"><strong>{{ proto_title }}</strong></a>
+      {% if proto_summary %}<br><small>{{ proto_summary }}</small>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+{% if reverse_relationships.related_remedies and item.category == 'Remedy' %}
+{# protocols listing this remedy via related_remedies #}
+{% endif %}
+{% if item.safety_profile %}
+<div class="section">
+  <h3>Safety Profile</h3>
+  {% if item.safety_profile.contraindication_categories %}
+  <p><span class="field-label">Contraindication Categories:</span> {{ item.safety_profile.contraindication_categories | join(', ') }}</p>
+  {% endif %}
+  {% if item.safety_profile.drug_interactions %}
+  <h4>Drug Interactions</h4>
+  <ul>
+    {% for di in item.safety_profile.drug_interactions %}
+    <li><strong>{{ di.substance }}</strong>: {{ di.interaction_type }} ({{ di.severity }}){% if di.mechanism %} - {{ di.mechanism }}{% endif %}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% if item.safety_profile.adverse_effects %}
+  <h4>Adverse Effects</h4>
+  <ul>
+    {% for ae in item.safety_profile.adverse_effects %}
+    <li>{{ ae.effect }} ({{ ae.frequency }}, {{ ae.severity }})</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% if item.safety_profile.maximum_duration %}
+  <p><span class="field-label">Maximum Duration:</span> {{ item.safety_profile.maximum_duration }}</p>
+  {% endif %}
+  {% if item.safety_profile.monitoring_parameters %}
+  <p><span class="field-label">Monitoring Parameters:</span> {{ item.safety_profile.monitoring_parameters | join(', ') }}</p>
+  {% endif %}
+</div>
+{% endif %}
+
+{% if item.source_links %}
+<div class="section">
+  <h3>Sources</h3>
+  <ul>
+    {% for link in item.source_links %}
+    <li><a href="{{ link }}" target="_blank">{{ link }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+<p><small>Research directory – not medical advice.</small></p>
+{% endblock %}

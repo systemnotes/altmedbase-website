@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ item.title }}</h1>
+
+<div class="tags">
+  <span class="tag">{{ item.category }}</span>
+  {% for tag in item.tags %}
+  <span class="tag">{{ tag }}</span>
+  {% endfor %}
+</div>
+
+{% if item.evidence and item.evidence.grade %}
+<p><span class="field-label">Evidence:</span> Grade {{ item.evidence.grade }} ({{ item.evidence.source }})</p>
+{% elif item.evidence_type %}
+<p><span class="field-label">Evidence:</span> {{ item.evidence_type }}</p>
+{% endif %}
+
+<div class="section">
+  <h3>Summary</h3>
+  <p>{{ item.summary }}</p>
+</div>
+
+{% if item.source_links %}
+<div class="section">
+  <h3>Sources</h3>
+  <ul>
+    {% for link in item.source_links %}
+    <li><a href="{{ link }}" target="_blank">{{ link }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+{% for field_name, field_value in item.items() %}
+{% if field_name not in ['id', 'title', 'category', 'tags', 'summary', 'source_links', 'evidence_type', 'evidence', '_collection'] %}
+{% if field_value %}
+<div class="section">
+  <h3>{{ field_name|replace('_', ' ')|title }}</h3>
+  {% if field_value is mapping %}
+    <ul>
+      {% for key, value in field_value.items() %}
+      <li><span class="field-label">{{ key|replace('_', ' ')|title }}:</span> {{ value }}</li>
+      {% endfor %}
+    </ul>
+  {% elif field_value is iterable and field_value is not string %}
+    <ul>
+      {% for value in field_value %}
+      <li>{{ value }}</li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>{{ field_value }}</p>
+  {% endif %}
+</div>
+{% endif %}
+{% endif %}
+{% endfor %}
+
+<p><small>Research directory – not medical advice.</small></p>
+{% endblock %}

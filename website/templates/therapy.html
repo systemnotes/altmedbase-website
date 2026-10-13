@@ -1,0 +1,169 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ item.title }}</h1>
+
+<div class="tags">
+  <span class="tag">{{ item.category }}</span>
+  {% for tag in item.tags %}
+  <span class="tag">{{ tag }}</span>
+  {% endfor %}
+</div>
+
+{% if item.evidence and item.evidence.grade %}
+<p><span class="field-label">Evidence:</span> Grade {{ item.evidence.grade }} ({{ item.evidence.source }})</p>
+{% elif item.evidence_type %}
+<p><span class="field-label">Evidence:</span> {{ item.evidence_type }}</p>
+{% endif %}
+
+<div class="section">
+  <h3>Summary</h3>
+  <p>{{ item.summary }}</p>
+</div>
+
+{% if item.type %}
+<p><span class="field-label">Type:</span> {{ item.type }}</p>
+{% endif %}
+
+{% if item.benefits %}
+<div class="section">
+  <h3>Benefits</h3>
+  <ul>
+    {% for benefit in item.benefits %}
+    <li>{{ benefit }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+{% if item.contraindications %}
+<div class="section">
+  <h3>Contraindications</h3>
+  <ul>
+    {% for ci in item.contraindications %}
+    <li>{{ ci }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+{% if item.session_duration %}
+<p><span class="field-label">Session Duration:</span> {{ item.session_duration }}</p>
+{% endif %}
+
+{% if item.frequency_recommendation %}
+<p><span class="field-label">Frequency Recommendation:</span> {{ item.frequency_recommendation }}</p>
+{% endif %}
+
+{% if item.cost_range %}
+<p><span class="field-label">Cost Range:</span> {{ item.cost_range }}</p>
+{% endif %}
+
+{% if related_with_info %}
+<div class="section">
+  <h3>Related Items</h3>
+  {% if related_with_info.related_remedies %}
+  <h4>Related Remedies</h4>
+  <ul>
+    {% for rem_id, rem_title, rem_summary in related_with_info.related_remedies %}
+    <li><a href="{{ get_url_for_item(rem_id) }}"><strong>{{ rem_title }}</strong></a>
+      {% if rem_summary %}<br><small>{{ rem_summary }}</small>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% if related_with_info.related_ailments %}
+  <h4>Related Ailments</h4>
+  <ul>
+    {% for ail_id, ail_title, ail_summary in related_with_info.related_ailments %}
+    <li><a href="{{ get_url_for_item(ail_id) }}"><strong>{{ ail_title }}</strong></a>
+      {% if ail_summary %}<br><small>{{ ail_summary }}</small>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% if related_with_info.related_practitioners %}
+  <h4>Related Practitioners</h4>
+  <ul>
+    {% for prac_id, prac_title, prac_summary in related_with_info.related_practitioners %}
+    <li><a href="{{ get_url_for_item(prac_id) }}"><strong>{{ prac_title }}</strong></a>
+      {% if prac_summary %}<br><small>{{ prac_summary }}</small>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% if related_with_info.related_protocols %}
+  <h4>Related Protocols</h4>
+  <ul>
+    {% for proto_id, proto_title, proto_summary in related_with_info.related_protocols %}
+    <li><a href="{{ get_url_for_item(proto_id) }}"><strong>{{ proto_title }}</strong></a>
+      {% if proto_summary %}<br><small>{{ proto_summary }}</small>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% if related_with_info.related_therapies %}
+  <h4>Related Therapies</h4>
+  <ul>
+    {% for ther_id, ther_title, ther_summary in related_with_info.related_therapies %}
+    <li><a href="{{ get_url_for_item(ther_id) }}"><strong>{{ ther_title }}</strong></a>
+      {% if ther_summary %}<br><small>{{ ther_summary }}</small>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% if related_with_info.related_products %}
+  <h4>Related Products</h4>
+  <ul>
+    {% for prod_id, prod_title, prod_summary in related_with_info.related_products %}
+    <li><a href="{{ get_url_for_item(prod_id) }}"><strong>{{ prod_title }}</strong></a>
+      {% if prod_summary %}<br><small>{{ prod_summary }}</small>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% if related_with_info.related_educations %}
+  <h4>Related Education</h4>
+  <ul>
+    {% for edu_id, edu_title, edu_summary in related_with_info.related_educations %}
+    <li><a href="{{ get_url_for_item(edu_id) }}"><strong>{{ edu_title }}</strong></a>
+      {% if edu_summary %}<br><small>{{ edu_summary }}</small>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% if related_with_info.related_suppliers %}
+  <h4>Related Suppliers</h4>
+  <ul>
+    {% for supp_id, supp_title, supp_summary in related_with_info.related_suppliers %}
+    <li><a href="{{ get_url_for_item(supp_id) }}"><strong>{{ supp_title }}</strong></a>
+      {% if supp_summary %}<br><small>{{ supp_summary }}</small>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% if related_with_info.related_testimonials %}
+  <h4>Related Testimonials</h4>
+  <ul>
+    {% for test_id, test_title, test_summary in related_with_info.related_testimonials %}
+    <li><a href="{{ get_url_for_item(test_id) }}"><strong>{{ test_title }}</strong></a>
+      {% if test_summary %}<br><small>{{ test_summary }}</small>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</div>
+{% endif %}
+
+{% if item.source_links %}
+<div class="section">
+  <h3>Sources</h3>
+  <ul>
+    {% for link in item.source_links %}
+    <li><a href="{{ link }}" target="_blank">{{ link }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+<p><small>Research directory – not medical advice.</small></p>
+{% endblock %}
