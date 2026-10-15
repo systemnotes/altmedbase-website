@@ -4,6 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }} – {{ config.site_name }}</title>
+  <meta name="description" content="{{ summary | default(config.site_description, true) }}">
+  <meta name="keywords" content="{{ keywords | default('', true) }}">
+  <link rel="canonical" href="{{ canonical_url | default('https://altmedbase.com/', true) }}">
+  <!-- OpenGraph -->
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ summary | default(config.site_description, true) }}">
+  <meta property="og:type" content="{{ og_type | default('website', true) }}">
+  <meta property="og:url" content="{{ canonical_url | default('https://altmedbase.com/', true) }}">
+  <!-- JSON-LD structured data -->
+  <script type="application/ld+json">
+  {{ json_ld | safe | default('', true) }}
+  </script>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
