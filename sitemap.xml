@@ -456,6 +456,21 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://altmedbase.com/ailments/acid-reflux-gerd.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/ailments/cognitive-decline.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/ailments/allergic-rhinitis.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://altmedbase.com/remedies/cayenne-pepper.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -922,6 +937,21 @@
   </url>
   <url>
     <loc>https://altmedbase.com/remedies/5-htp.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/digestive-enzymes.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/omega-3-fish-oil.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/quercetin-bromelain-complex.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
