@@ -471,6 +471,21 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://altmedbase.com/ailments/high-cholesterol.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/ailments/bronchitis.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/ailments/erectile-dysfunction.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://altmedbase.com/remedies/cayenne-pepper.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -952,6 +967,21 @@
   </url>
   <url>
     <loc>https://altmedbase.com/remedies/quercetin-bromelain-complex.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/red-yeast-rice.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/maca-root.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/pelargonium-sidoides-umcka.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

@@ -752,7 +752,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_002 ailment_005 ailment_012 ailment_013 ailment_015 ailment_016 ailment_017 ailment_023 ailment_033 ailment_037 ailment_038 ailment_053",
+    "related_ailments": "ailment_002 ailment_005 ailment_010 ailment_012 ailment_013 ailment_015 ailment_016 ailment_017 ailment_023 ailment_033 ailment_036 ailment_037 ailment_038 ailment_053",
     "evidence": {}
   },
   {
@@ -779,7 +779,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_005 ailment_012 ailment_015 ailment_016 ailment_017 ailment_018 ailment_023 ailment_028 ailment_033 ailment_035 ailment_036 ailment_037 ailment_038 ailment_043 ailment_049",
+    "related_ailments": "ailment_005 ailment_010 ailment_012 ailment_015 ailment_016 ailment_017 ailment_018 ailment_023 ailment_028 ailment_030 ailment_033 ailment_035 ailment_036 ailment_037 ailment_038 ailment_040 ailment_041 ailment_043 ailment_049 ailment_056",
     "evidence": {}
   },
   {
@@ -806,7 +806,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_004 ailment_005 ailment_006 ailment_007 ailment_008 ailment_012 ailment_013 ailment_014 ailment_015 ailment_016 ailment_019 ailment_022 ailment_027 ailment_036 ailment_037 ailment_038 ailment_045 ailment_046 ailment_047 ailment_049",
+    "related_ailments": "ailment_004 ailment_005 ailment_006 ailment_007 ailment_008 ailment_012 ailment_013 ailment_014 ailment_015 ailment_016 ailment_017 ailment_018 ailment_019 ailment_022 ailment_023 ailment_027 ailment_036 ailment_037 ailment_038 ailment_040 ailment_045 ailment_046 ailment_047 ailment_049 ailment_056",
     "evidence": {}
   },
   {
@@ -833,7 +833,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_003 ailment_005 ailment_006 ailment_019 ailment_020 ailment_041",
+    "related_ailments": "ailment_002 ailment_003 ailment_005 ailment_006 ailment_015 ailment_016 ailment_017 ailment_018 ailment_019 ailment_020 ailment_022 ailment_023 ailment_024 ailment_028 ailment_030 ailment_033 ailment_036 ailment_037 ailment_038 ailment_039 ailment_041 ailment_043 ailment_049 ailment_054 ailment_056",
     "evidence": {}
   },
   {
@@ -860,7 +860,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_002 ailment_003 ailment_004 ailment_006 ailment_012 ailment_014 ailment_015 ailment_016 ailment_017 ailment_019 ailment_020 ailment_022 ailment_023 ailment_030 ailment_033 ailment_034 ailment_036 ailment_037 ailment_038 ailment_043 ailment_045 ailment_046 ailment_047 ailment_049 ailment_052",
+    "related_ailments": "ailment_002 ailment_003 ailment_004 ailment_006 ailment_010 ailment_012 ailment_014 ailment_015 ailment_016 ailment_017 ailment_018 ailment_019 ailment_020 ailment_022 ailment_023 ailment_024 ailment_028 ailment_030 ailment_033 ailment_034 ailment_036 ailment_037 ailment_038 ailment_039 ailment_040 ailment_041 ailment_043 ailment_045 ailment_046 ailment_047 ailment_049 ailment_052 ailment_054 ailment_055 ailment_056",
     "evidence": {}
   },
   {
@@ -887,7 +887,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_003 ailment_004 ailment_005 ailment_014 ailment_019 ailment_022",
+    "related_ailments": "ailment_002 ailment_003 ailment_004 ailment_005 ailment_010 ailment_012 ailment_014 ailment_015 ailment_016 ailment_017 ailment_018 ailment_019 ailment_022 ailment_023 ailment_024 ailment_028 ailment_030 ailment_033 ailment_034 ailment_036 ailment_037 ailment_038 ailment_040 ailment_041 ailment_043 ailment_045 ailment_046 ailment_047 ailment_049 ailment_055 ailment_056",
     "evidence": {}
   },
   {
@@ -995,7 +995,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_002 ailment_008 ailment_015",
+    "related_ailments": "ailment_002 ailment_008 ailment_015 ailment_018 ailment_023 ailment_033 ailment_036 ailment_037 ailment_038 ailment_040 ailment_041 ailment_056",
     "evidence": {}
   },
   {
@@ -1049,7 +1049,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_002 ailment_003 ailment_005 ailment_006 ailment_007 ailment_013 ailment_014 ailment_015 ailment_021 ailment_022 ailment_023 ailment_033 ailment_037 ailment_038 ailment_040 ailment_045 ailment_046",
+    "related_ailments": "ailment_002 ailment_003 ailment_004 ailment_005 ailment_006 ailment_007 ailment_010 ailment_013 ailment_014 ailment_015 ailment_018 ailment_021 ailment_022 ailment_023 ailment_033 ailment_035 ailment_036 ailment_037 ailment_038 ailment_040 ailment_041 ailment_045 ailment_046 ailment_054 ailment_056 ailment_059",
     "evidence": {}
   },
   {
@@ -1130,7 +1130,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_002 ailment_016 ailment_017 ailment_018 ailment_023 ailment_034 ailment_037 ailment_041 ailment_044 ailment_047 ailment_052 ailment_056",
+    "related_ailments": "ailment_002 ailment_016 ailment_017 ailment_018 ailment_023 ailment_028 ailment_034 ailment_036 ailment_037 ailment_038 ailment_041 ailment_044 ailment_047 ailment_052 ailment_056 ailment_058",
     "evidence": {}
   },
   {
@@ -1184,7 +1184,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_002 ailment_005 ailment_012 ailment_013 ailment_015 ailment_016 ailment_021 ailment_030 ailment_033 ailment_036 ailment_037 ailment_038 ailment_040 ailment_043 ailment_049 ailment_052 ailment_053",
+    "related_ailments": "ailment_002 ailment_005 ailment_012 ailment_013 ailment_015 ailment_016 ailment_018 ailment_021 ailment_030 ailment_033 ailment_035 ailment_036 ailment_037 ailment_038 ailment_040 ailment_043 ailment_049 ailment_052 ailment_053 ailment_056",
     "evidence": {}
   },
   {
@@ -1211,7 +1211,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_002 ailment_006 ailment_009 ailment_015 ailment_035 ailment_037 ailment_043",
+    "related_ailments": "ailment_002 ailment_006 ailment_009 ailment_010 ailment_015 ailment_016 ailment_035 ailment_036 ailment_037 ailment_038 ailment_041 ailment_043 ailment_047 ailment_056",
     "evidence": {}
   },
   {
@@ -1292,7 +1292,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_002 ailment_003 ailment_005 ailment_006 ailment_012 ailment_013 ailment_015 ailment_016 ailment_017 ailment_022 ailment_023 ailment_030 ailment_033 ailment_036 ailment_037 ailment_038 ailment_043 ailment_045 ailment_046 ailment_047 ailment_049",
+    "related_ailments": "ailment_002 ailment_003 ailment_004 ailment_005 ailment_006 ailment_010 ailment_012 ailment_013 ailment_015 ailment_016 ailment_017 ailment_018 ailment_022 ailment_023 ailment_024 ailment_028 ailment_030 ailment_033 ailment_035 ailment_036 ailment_037 ailment_038 ailment_039 ailment_040 ailment_041 ailment_043 ailment_045 ailment_046 ailment_047 ailment_049 ailment_054 ailment_056 ailment_057",
     "evidence": {}
   },
   {
@@ -1346,7 +1346,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_003 ailment_012 ailment_013 ailment_033 ailment_046",
+    "related_ailments": "ailment_002 ailment_003 ailment_005 ailment_010 ailment_012 ailment_013 ailment_015 ailment_016 ailment_017 ailment_018 ailment_033 ailment_036 ailment_046 ailment_054 ailment_057",
     "evidence": {}
   },
   {
@@ -1373,7 +1373,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_003 ailment_008 ailment_014 ailment_029 ailment_033 ailment_037 ailment_039 ailment_040",
+    "related_ailments": "ailment_003 ailment_004 ailment_008 ailment_012 ailment_014 ailment_015 ailment_018 ailment_022 ailment_023 ailment_029 ailment_030 ailment_033 ailment_035 ailment_036 ailment_037 ailment_038 ailment_039 ailment_040 ailment_043 ailment_047 ailment_056",
     "evidence": {}
   },
   {
@@ -1481,7 +1481,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_002 ailment_016 ailment_018 ailment_031 ailment_032 ailment_037 ailment_041 ailment_050 ailment_051",
+    "related_ailments": "ailment_002 ailment_004 ailment_005 ailment_006 ailment_012 ailment_015 ailment_016 ailment_017 ailment_018 ailment_023 ailment_030 ailment_031 ailment_032 ailment_036 ailment_037 ailment_038 ailment_039 ailment_040 ailment_041 ailment_043 ailment_049 ailment_050 ailment_051 ailment_056",
     "evidence": {}
   },
   {
@@ -1535,7 +1535,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_002 ailment_003 ailment_005 ailment_006 ailment_012 ailment_015 ailment_016 ailment_017 ailment_021 ailment_023 ailment_025 ailment_026 ailment_029 ailment_031 ailment_033 ailment_036 ailment_037 ailment_038 ailment_040 ailment_043 ailment_047 ailment_049",
+    "related_ailments": "ailment_002 ailment_003 ailment_005 ailment_006 ailment_010 ailment_012 ailment_015 ailment_016 ailment_017 ailment_018 ailment_021 ailment_023 ailment_025 ailment_026 ailment_029 ailment_031 ailment_033 ailment_036 ailment_037 ailment_038 ailment_040 ailment_043 ailment_047 ailment_049 ailment_056",
     "evidence": {}
   },
   {
@@ -1562,7 +1562,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_012 ailment_015 ailment_016 ailment_017 ailment_022 ailment_027 ailment_028 ailment_029 ailment_030 ailment_036 ailment_037 ailment_038 ailment_041 ailment_043 ailment_047 ailment_049",
+    "related_ailments": "ailment_004 ailment_012 ailment_015 ailment_016 ailment_017 ailment_018 ailment_022 ailment_024 ailment_027 ailment_028 ailment_029 ailment_030 ailment_036 ailment_037 ailment_038 ailment_040 ailment_041 ailment_043 ailment_047 ailment_049 ailment_056",
     "evidence": {}
   },
   {
@@ -1616,7 +1616,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_002 ailment_005 ailment_012 ailment_013 ailment_015 ailment_016 ailment_021 ailment_024 ailment_029 ailment_030 ailment_036 ailment_037 ailment_038 ailment_043 ailment_046 ailment_048 ailment_049 ailment_052 ailment_053",
+    "related_ailments": "ailment_002 ailment_004 ailment_005 ailment_010 ailment_012 ailment_013 ailment_015 ailment_016 ailment_018 ailment_021 ailment_024 ailment_029 ailment_030 ailment_035 ailment_036 ailment_037 ailment_038 ailment_039 ailment_040 ailment_041 ailment_043 ailment_046 ailment_048 ailment_049 ailment_052 ailment_053 ailment_056",
     "evidence": {}
   },
   {
@@ -1643,7 +1643,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_015 ailment_018 ailment_031 ailment_036 ailment_044",
+    "related_ailments": "ailment_015 ailment_018 ailment_028 ailment_031 ailment_036 ailment_041 ailment_044",
     "evidence": {}
   },
   {
@@ -1697,7 +1697,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_015 ailment_016 ailment_017 ailment_028 ailment_030 ailment_031 ailment_039 ailment_054",
+    "related_ailments": "ailment_002 ailment_004 ailment_005 ailment_006 ailment_010 ailment_015 ailment_016 ailment_017 ailment_018 ailment_022 ailment_023 ailment_024 ailment_028 ailment_030 ailment_031 ailment_033 ailment_037 ailment_038 ailment_039 ailment_040 ailment_041 ailment_045 ailment_054 ailment_056",
     "evidence": {}
   },
   {
@@ -1724,7 +1724,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_002 ailment_003 ailment_005 ailment_006 ailment_012 ailment_015 ailment_016 ailment_017 ailment_023 ailment_024 ailment_028 ailment_029 ailment_030 ailment_031 ailment_033 ailment_036 ailment_038 ailment_039 ailment_041 ailment_043 ailment_044 ailment_045 ailment_046 ailment_047 ailment_048 ailment_049 ailment_050 ailment_051 ailment_052 ailment_056",
+    "related_ailments": "ailment_002 ailment_003 ailment_005 ailment_006 ailment_012 ailment_015 ailment_016 ailment_017 ailment_018 ailment_023 ailment_024 ailment_028 ailment_029 ailment_030 ailment_031 ailment_033 ailment_035 ailment_036 ailment_038 ailment_039 ailment_041 ailment_043 ailment_044 ailment_045 ailment_046 ailment_047 ailment_048 ailment_049 ailment_050 ailment_051 ailment_052 ailment_056 ailment_058",
     "evidence": {}
   },
   {
@@ -1751,7 +1751,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_002 ailment_012 ailment_013 ailment_015 ailment_016 ailment_017 ailment_023 ailment_024 ailment_030 ailment_033 ailment_036 ailment_037 ailment_040 ailment_042 ailment_043 ailment_047 ailment_049",
+    "related_ailments": "ailment_002 ailment_004 ailment_012 ailment_013 ailment_015 ailment_016 ailment_017 ailment_018 ailment_023 ailment_024 ailment_030 ailment_033 ailment_035 ailment_036 ailment_037 ailment_039 ailment_040 ailment_042 ailment_043 ailment_047 ailment_049 ailment_054 ailment_056",
     "evidence": {}
   },
   {
@@ -1778,7 +1778,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_002 ailment_012 ailment_013 ailment_014 ailment_015 ailment_023 ailment_024 ailment_036",
+    "related_ailments": "ailment_002 ailment_012 ailment_013 ailment_014 ailment_015 ailment_018 ailment_023 ailment_024 ailment_036 ailment_037",
     "evidence": {}
   },
   {
@@ -1805,7 +1805,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_012 ailment_013 ailment_024 ailment_030 ailment_033 ailment_038 ailment_042 ailment_047 ailment_049",
+    "related_ailments": "ailment_002 ailment_004 ailment_012 ailment_013 ailment_015 ailment_017 ailment_018 ailment_023 ailment_024 ailment_030 ailment_033 ailment_035 ailment_036 ailment_037 ailment_038 ailment_039 ailment_041 ailment_042 ailment_047 ailment_049 ailment_056 ailment_059",
     "evidence": {}
   },
   {
@@ -1832,7 +1832,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_018 ailment_028 ailment_029 ailment_031 ailment_037 ailment_051",
+    "related_ailments": "ailment_018 ailment_028 ailment_029 ailment_031 ailment_037 ailment_045 ailment_046 ailment_051",
     "evidence": {}
   },
   {
@@ -1886,7 +1886,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_002 ailment_005 ailment_012 ailment_015 ailment_017 ailment_018 ailment_023 ailment_030 ailment_033 ailment_035 ailment_038 ailment_047 ailment_049",
+    "related_ailments": "ailment_002 ailment_005 ailment_012 ailment_015 ailment_017 ailment_018 ailment_023 ailment_030 ailment_033 ailment_035 ailment_036 ailment_037 ailment_038 ailment_047 ailment_049 ailment_054 ailment_056",
     "evidence": {}
   },
   {
@@ -1967,7 +1967,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_002 ailment_012 ailment_014 ailment_015 ailment_016 ailment_021 ailment_023 ailment_033 ailment_036 ailment_037 ailment_038 ailment_040 ailment_049 ailment_052 ailment_053",
+    "related_ailments": "ailment_002 ailment_010 ailment_012 ailment_014 ailment_015 ailment_016 ailment_018 ailment_021 ailment_023 ailment_028 ailment_033 ailment_036 ailment_037 ailment_038 ailment_040 ailment_041 ailment_049 ailment_052 ailment_053 ailment_056 ailment_057",
     "evidence": {}
   },
   {
@@ -1994,7 +1994,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_002 ailment_015 ailment_021 ailment_033 ailment_036 ailment_038 ailment_040 ailment_049",
+    "related_ailments": "ailment_002 ailment_015 ailment_018 ailment_021 ailment_024 ailment_028 ailment_033 ailment_036 ailment_037 ailment_038 ailment_040 ailment_041 ailment_049 ailment_055 ailment_056",
     "evidence": {}
   },
   {
@@ -2021,7 +2021,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_012 ailment_015 ailment_016 ailment_033 ailment_036 ailment_037 ailment_043 ailment_045 ailment_049 ailment_055",
+    "related_ailments": "ailment_012 ailment_015 ailment_016 ailment_017 ailment_033 ailment_036 ailment_037 ailment_043 ailment_045 ailment_049 ailment_055 ailment_056",
     "evidence": {}
   },
   {
@@ -2048,7 +2048,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_002 ailment_003 ailment_005 ailment_012 ailment_015 ailment_016 ailment_017 ailment_022 ailment_023 ailment_030 ailment_033 ailment_036 ailment_037 ailment_038 ailment_043 ailment_047 ailment_048 ailment_052 ailment_055",
+    "related_ailments": "ailment_002 ailment_003 ailment_004 ailment_005 ailment_010 ailment_012 ailment_015 ailment_016 ailment_017 ailment_018 ailment_022 ailment_023 ailment_024 ailment_028 ailment_030 ailment_033 ailment_035 ailment_036 ailment_037 ailment_038 ailment_039 ailment_040 ailment_041 ailment_043 ailment_047 ailment_048 ailment_052 ailment_054 ailment_055 ailment_056 ailment_059",
     "evidence": {}
   },
   {
@@ -2075,7 +2075,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_002 ailment_003 ailment_012 ailment_015 ailment_017 ailment_018 ailment_022 ailment_028 ailment_031 ailment_036 ailment_037 ailment_038 ailment_049",
+    "related_ailments": "ailment_002 ailment_003 ailment_010 ailment_012 ailment_015 ailment_016 ailment_017 ailment_018 ailment_022 ailment_028 ailment_031 ailment_036 ailment_037 ailment_038 ailment_041 ailment_049 ailment_056",
     "evidence": {}
   },
   {
@@ -2156,7 +2156,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_001 ailment_015 ailment_017 ailment_033 ailment_046",
+    "related_ailments": "ailment_001 ailment_015 ailment_017 ailment_018 ailment_033 ailment_037 ailment_046 ailment_056",
     "evidence": {}
   },
   {
@@ -2183,7 +2183,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_016 ailment_036 ailment_037 ailment_051",
+    "related_ailments": "ailment_002 ailment_015 ailment_016 ailment_017 ailment_018 ailment_023 ailment_036 ailment_037 ailment_051 ailment_056",
     "evidence": {}
   },
   {
@@ -2210,7 +2210,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_030 ailment_037 ailment_048 ailment_049",
+    "related_ailments": "ailment_015 ailment_017 ailment_018 ailment_030 ailment_036 ailment_037 ailment_048 ailment_049 ailment_056",
     "evidence": {}
   },
   {
@@ -2238,6 +2238,87 @@
     "constituents": "[]",
     "related_remedies": "",
     "related_ailments": "ailment_015 ailment_034 ailment_037 ailment_044",
+    "evidence": {}
+  },
+  {
+    "id": "ailment_057",
+    "title": "High Cholesterol",
+    "category": "Ailment",
+    "collection": "ailments",
+    "page_url": "ailments/high-cholesterol.html",
+    "summary": "Elevated cholesterol levels in the blood, increasing risk of cardiovascular disease.",
+    "tags": "high-cholesterol hypercholesterolemia cardiovascular lipids",
+    "indications": "",
+    "contraindications": "",
+    "preparations": "",
+    "body_systems": "",
+    "evidence_type": "scientific",
+    "evidence_grade": "",
+    "evidence_source": "",
+    "botanical_name": "",
+    "family": "",
+    "common_names": "",
+    "parts_used": "",
+    "safety_profile": "{}",
+    "tcm_properties": "{}",
+    "ayurvedic_energetics": "{}",
+    "constituents": "[]",
+    "related_remedies": "",
+    "related_ailments": "ailment_013 ailment_021 ailment_023 ailment_046",
+    "evidence": {}
+  },
+  {
+    "id": "ailment_058",
+    "title": "Bronchitis",
+    "category": "Ailment",
+    "collection": "ailments",
+    "page_url": "ailments/bronchitis.html",
+    "summary": "Inflammation of the bronchial tubes causing coughing and mucus production.",
+    "tags": "bronchitis respiratory cough inflammation bronchial",
+    "indications": "",
+    "contraindications": "",
+    "preparations": "",
+    "body_systems": "",
+    "evidence_type": "scientific",
+    "evidence_grade": "",
+    "evidence_source": "",
+    "botanical_name": "",
+    "family": "",
+    "common_names": "",
+    "parts_used": "",
+    "safety_profile": "{}",
+    "tcm_properties": "{}",
+    "ayurvedic_energetics": "{}",
+    "constituents": "[]",
+    "related_remedies": "",
+    "related_ailments": "ailment_015 ailment_034 ailment_037 ailment_039",
+    "evidence": {}
+  },
+  {
+    "id": "ailment_059",
+    "title": "Erectile Dysfunction",
+    "category": "Ailment",
+    "collection": "ailments",
+    "page_url": "ailments/erectile-dysfunction.html",
+    "summary": "Inability to achieve or maintain an erection sufficient for sexual intercourse.",
+    "tags": "erectile-dysfunction impotence sexual-health circulation",
+    "indications": "",
+    "contraindications": "",
+    "preparations": "",
+    "body_systems": "",
+    "evidence_type": "scientific",
+    "evidence_grade": "",
+    "evidence_source": "",
+    "botanical_name": "",
+    "family": "",
+    "common_names": "",
+    "parts_used": "",
+    "safety_profile": "{}",
+    "tcm_properties": "{}",
+    "ayurvedic_energetics": "{}",
+    "constituents": "[]",
+    "related_remedies": "",
+    "related_ailments": "ailment_012 ailment_023 ailment_040 ailment_049",
     "evidence": {}
   },
   {
@@ -4857,6 +4938,87 @@
     "constituents": "[]",
     "related_remedies": "",
     "related_ailments": "ailment_055 ailment_032 ailment_044 ailment_018",
+    "evidence": {}
+  },
+  {
+    "id": "remedy_094",
+    "title": "Red Yeast Rice",
+    "category": "Remedy",
+    "collection": "remedies",
+    "page_url": "remedies/red-yeast-rice.html",
+    "summary": "Traditional Chinese medicine containing monacolin K for cholesterol management.",
+    "tags": "red-yeast-rice cholesterol statin cardiovascular lipids",
+    "indications": "high-cholesterol cardiovascular-disease lipid-management",
+    "contraindications": "liver-disease pregnancy",
+    "preparations": "capsule tablet",
+    "body_systems": "circulatory digestive",
+    "evidence_type": "scientific",
+    "evidence_grade": "",
+    "evidence_source": "",
+    "botanical_name": "",
+    "family": "",
+    "common_names": "",
+    "parts_used": "",
+    "safety_profile": "{}",
+    "tcm_properties": "{}",
+    "ayurvedic_energetics": "{}",
+    "constituents": "[]",
+    "related_remedies": "",
+    "related_ailments": "ailment_057 ailment_023 ailment_046",
+    "evidence": {}
+  },
+  {
+    "id": "remedy_095",
+    "title": "Maca Root",
+    "category": "Remedy",
+    "collection": "remedies",
+    "page_url": "remedies/maca-root.html",
+    "summary": "Peruvian root vegetable that supports hormonal balance and sexual function.",
+    "tags": "maca-root adaptogen hormonal libido energy",
+    "indications": "erectile-dysfunction hormonal-imbalance fatigue libido-support",
+    "contraindications": "hormone-sensitive-conditions",
+    "preparations": "powder capsule tincture",
+    "body_systems": "endocrine circulatory nervous",
+    "evidence_type": "traditional",
+    "evidence_grade": "",
+    "evidence_source": "",
+    "botanical_name": "",
+    "family": "",
+    "common_names": "",
+    "parts_used": "",
+    "safety_profile": "{}",
+    "tcm_properties": "{}",
+    "ayurvedic_energetics": "{}",
+    "constituents": "[]",
+    "related_remedies": "",
+    "related_ailments": "ailment_059 ailment_040 ailment_030 ailment_038",
+    "evidence": {}
+  },
+  {
+    "id": "remedy_096",
+    "title": "Pelargonium sidoides (Umcka)",
+    "category": "Remedy",
+    "collection": "remedies",
+    "page_url": "remedies/pelargonium-sidoides-umcka.html",
+    "summary": "South African herb traditionally used for respiratory infections and bronchitis.",
+    "tags": "pelargonium umcka bronchitis respiratory immune",
+    "indications": "bronchitis respiratory-infections cough sinusitis",
+    "contraindications": "liver-disease",
+    "preparations": "liquid tablet syrup",
+    "body_systems": "respiratory immune",
+    "evidence_type": "scientific",
+    "evidence_grade": "",
+    "evidence_source": "",
+    "botanical_name": "",
+    "family": "",
+    "common_names": "",
+    "parts_used": "",
+    "safety_profile": "{}",
+    "tcm_properties": "{}",
+    "ayurvedic_energetics": "{}",
+    "constituents": "[]",
+    "related_remedies": "",
+    "related_ailments": "ailment_058 ailment_034 ailment_015 ailment_044",
     "evidence": {}
   }
 ]
