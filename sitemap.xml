@@ -446,6 +446,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://altmedbase.com/ailments/restless-leg-syndrome.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/ailments/tinnitus.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://altmedbase.com/remedies/cayenne-pepper.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -902,6 +912,16 @@
   </url>
   <url>
     <loc>https://altmedbase.com/remedies/curcumin-phytosome.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/magnesium-l-threonate.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/5-htp.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

@@ -752,7 +752,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_013 ailment_017",
+    "related_ailments": "ailment_013 ailment_017 ailment_053",
     "evidence": {}
   },
   {
@@ -941,7 +941,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_003 ailment_009 ailment_010",
+    "related_ailments": "ailment_003 ailment_009 ailment_010 ailment_011",
     "evidence": {}
   },
   {
@@ -968,7 +968,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "",
+    "related_ailments": "ailment_008 ailment_010",
     "evidence": {}
   },
   {
@@ -995,7 +995,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_002 ailment_008",
+    "related_ailments": "ailment_002 ailment_008 ailment_015",
     "evidence": {}
   },
   {
@@ -1022,7 +1022,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_016 ailment_027",
+    "related_ailments": "ailment_016 ailment_027 ailment_036",
     "evidence": {}
   },
   {
@@ -1049,7 +1049,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_003 ailment_006 ailment_007 ailment_013 ailment_014 ailment_021 ailment_023 ailment_033 ailment_038 ailment_045 ailment_046",
+    "related_ailments": "ailment_003 ailment_006 ailment_007 ailment_013 ailment_014 ailment_021 ailment_023 ailment_033 ailment_038 ailment_040 ailment_045 ailment_046",
     "evidence": {}
   },
   {
@@ -1184,7 +1184,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_013 ailment_021 ailment_030 ailment_040 ailment_049",
+    "related_ailments": "ailment_013 ailment_021 ailment_030 ailment_040 ailment_049 ailment_052 ailment_053",
     "evidence": {}
   },
   {
@@ -1346,7 +1346,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_003 ailment_012 ailment_013 ailment_033",
+    "related_ailments": "ailment_003 ailment_012 ailment_013 ailment_033 ailment_046",
     "evidence": {}
   },
   {
@@ -1427,7 +1427,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_004 ailment_005 ailment_006 ailment_019 ailment_030",
+    "related_ailments": "ailment_004 ailment_005 ailment_006 ailment_019 ailment_025 ailment_030",
     "evidence": {}
   },
   {
@@ -1454,7 +1454,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_003 ailment_007 ailment_014 ailment_024 ailment_029 ailment_031",
+    "related_ailments": "ailment_003 ailment_007 ailment_014 ailment_024 ailment_029 ailment_031 ailment_037",
     "evidence": {}
   },
   {
@@ -1481,7 +1481,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_002 ailment_016 ailment_018 ailment_031 ailment_032 ailment_037 ailment_050 ailment_051",
+    "related_ailments": "ailment_002 ailment_016 ailment_018 ailment_031 ailment_032 ailment_037 ailment_041 ailment_050 ailment_051",
     "evidence": {}
   },
   {
@@ -1535,7 +1535,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_017 ailment_021 ailment_025 ailment_026 ailment_029 ailment_038 ailment_040 ailment_049",
+    "related_ailments": "ailment_017 ailment_021 ailment_025 ailment_026 ailment_029 ailment_031 ailment_037 ailment_038 ailment_040 ailment_049",
     "evidence": {}
   },
   {
@@ -1616,7 +1616,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_012 ailment_013 ailment_021 ailment_024 ailment_029 ailment_038 ailment_046 ailment_048",
+    "related_ailments": "ailment_012 ailment_013 ailment_021 ailment_024 ailment_029 ailment_038 ailment_046 ailment_048 ailment_052 ailment_053",
     "evidence": {}
   },
   {
@@ -1697,7 +1697,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_016 ailment_028 ailment_031 ailment_039",
+    "related_ailments": "ailment_015 ailment_016 ailment_017 ailment_028 ailment_030 ailment_031 ailment_039",
     "evidence": {}
   },
   {
@@ -1724,7 +1724,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_024 ailment_028 ailment_029 ailment_031 ailment_041 ailment_044 ailment_045 ailment_048 ailment_050 ailment_051",
+    "related_ailments": "ailment_024 ailment_028 ailment_029 ailment_031 ailment_039 ailment_041 ailment_044 ailment_045 ailment_048 ailment_050 ailment_051",
     "evidence": {}
   },
   {
@@ -1805,7 +1805,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_012 ailment_013 ailment_024 ailment_030 ailment_033 ailment_038 ailment_042 ailment_047",
+    "related_ailments": "ailment_012 ailment_013 ailment_024 ailment_030 ailment_033 ailment_038 ailment_042 ailment_047 ailment_049",
     "evidence": {}
   },
   {
@@ -1967,7 +1967,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_012 ailment_014 ailment_021 ailment_023 ailment_033 ailment_038 ailment_040",
+    "related_ailments": "ailment_012 ailment_014 ailment_021 ailment_023 ailment_033 ailment_038 ailment_040 ailment_052 ailment_053",
     "evidence": {}
   },
   {
@@ -2048,7 +2048,7 @@
     "ayurvedic_energetics": "{}",
     "constituents": "[]",
     "related_remedies": "",
-    "related_ailments": "ailment_017 ailment_030 ailment_037 ailment_038 ailment_048",
+    "related_ailments": "ailment_017 ailment_030 ailment_037 ailment_038 ailment_048 ailment_052",
     "evidence": {}
   },
   {
@@ -2103,6 +2103,60 @@
     "constituents": "[]",
     "related_remedies": "",
     "related_ailments": "ailment_016 ailment_028 ailment_031 ailment_037 ailment_039 ailment_041",
+    "evidence": {}
+  },
+  {
+    "id": "ailment_052",
+    "title": "Restless Leg Syndrome",
+    "category": "Ailment",
+    "collection": "ailments",
+    "page_url": "ailments/restless-leg-syndrome.html",
+    "summary": "Uncontrollable urge to move legs, usually due to uncomfortable sensations.",
+    "tags": "restless-leg rls sleep-disorder neurological",
+    "indications": "",
+    "contraindications": "",
+    "preparations": "",
+    "body_systems": "",
+    "evidence_type": "scientific",
+    "evidence_grade": "",
+    "evidence_source": "",
+    "botanical_name": "",
+    "family": "",
+    "common_names": "",
+    "parts_used": "",
+    "safety_profile": "{}",
+    "tcm_properties": "{}",
+    "ayurvedic_energetics": "{}",
+    "constituents": "[]",
+    "related_remedies": "",
+    "related_ailments": "ailment_017 ailment_033 ailment_046 ailment_049",
+    "evidence": {}
+  },
+  {
+    "id": "ailment_053",
+    "title": "Tinnitus",
+    "category": "Ailment",
+    "collection": "ailments",
+    "page_url": "ailments/tinnitus.html",
+    "summary": "Perception of noise or ringing in the ears when no external sound is present.",
+    "tags": "tinnitus ringing-ears hearing-loss auditory",
+    "indications": "",
+    "contraindications": "",
+    "preparations": "",
+    "body_systems": "",
+    "evidence_type": "scientific",
+    "evidence_grade": "",
+    "evidence_source": "",
+    "botanical_name": "",
+    "family": "",
+    "common_names": "",
+    "parts_used": "",
+    "safety_profile": "{}",
+    "tcm_properties": "{}",
+    "ayurvedic_energetics": "{}",
+    "constituents": "[]",
+    "related_remedies": "",
+    "related_ailments": "ailment_001 ailment_017 ailment_033 ailment_046",
     "evidence": {}
   },
   {
@@ -4587,6 +4641,60 @@
     "constituents": "[]",
     "related_remedies": "",
     "related_ailments": "ailment_002 ailment_043 ailment_047 ailment_050",
+    "evidence": {}
+  },
+  {
+    "id": "remedy_089",
+    "title": "Magnesium L-Threonate",
+    "category": "Remedy",
+    "collection": "remedies",
+    "page_url": "remedies/magnesium-l-threonate.html",
+    "summary": "Special form of magnesium that crosses the blood-brain barrier to support cognitive function.",
+    "tags": "magnesium-l-threonate brain-health memory cognitive sleep",
+    "indications": "memory-loss cognitive-decline brain-fog insomnia anxiety",
+    "contraindications": "kidney-disease",
+    "preparations": "capsule powder",
+    "body_systems": "nervous endocrine",
+    "evidence_type": "scientific",
+    "evidence_grade": "",
+    "evidence_source": "",
+    "botanical_name": "",
+    "family": "",
+    "common_names": "",
+    "parts_used": "",
+    "safety_profile": "{}",
+    "tcm_properties": "{}",
+    "ayurvedic_energetics": "{}",
+    "constituents": "[]",
+    "related_remedies": "",
+    "related_ailments": "ailment_017 ailment_030 ailment_049 ailment_052 ailment_053",
+    "evidence": {}
+  },
+  {
+    "id": "remedy_090",
+    "title": "5-HTP",
+    "category": "Remedy",
+    "collection": "remedies",
+    "page_url": "remedies/5-htp.html",
+    "summary": "Precursor to serotonin that supports mood regulation, sleep, and appetite control.",
+    "tags": "5-htp serotonin mood sleep appetite",
+    "indications": "depression anxiety insomnia weight-management migraine",
+    "contraindications": "ssri-use maoi-use",
+    "preparations": "capsule tablet",
+    "body_systems": "nervous endocrine digestive",
+    "evidence_type": "scientific",
+    "evidence_grade": "",
+    "evidence_source": "",
+    "botanical_name": "",
+    "family": "",
+    "common_names": "",
+    "parts_used": "",
+    "safety_profile": "{}",
+    "tcm_properties": "{}",
+    "ayurvedic_energetics": "{}",
+    "constituents": "[]",
+    "related_remedies": "",
+    "related_ailments": "ailment_049 ailment_017 ailment_030 ailment_010",
     "evidence": {}
   }
 ]
