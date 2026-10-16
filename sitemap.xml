@@ -416,6 +416,36 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://altmedbase.com/ailments/metabolic-syndrome.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/ailments/osteoporosis.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/ailments/neuropathy.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/ailments/anxiety-stress.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/ailments/autoimmune-disorders.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/ailments/gut-dysbiosis.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://altmedbase.com/remedies/cayenne-pepper.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -842,6 +872,36 @@
   </url>
   <url>
     <loc>https://altmedbase.com/remedies/bromelain-enzyme.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/coenzyme-q10.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/collagen-peptides.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/lions-mane-mushroom.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/l-theanine.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/probiotics-multistrain.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/curcumin-phytosome.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
