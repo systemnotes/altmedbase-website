@@ -246,6 +246,71 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://altmedbase.com/ailments/hypertension.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/ailments/heart-failure.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/ailments/chronic-kidney-disease.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/ailments/asthma.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/ailments/irritable-bowel-syndrome.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/ailments/insomnia-sleep-disorders.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/ailments/eczema-skin-disorders.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/ailments/kidney-bladder-health.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/ailments/uti-urinary-tract-infection.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/ailments/hypertension-high-blood-pressure.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/ailments/kidney-stones-nephrolithiasis.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/ailments/cardiovascular-disease.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/ailments/liver-cirrhosis.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://altmedbase.com/remedies/cayenne-pepper.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -447,6 +512,61 @@
   </url>
   <url>
     <loc>https://altmedbase.com/remedies/ashwagandha.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/hawthorn-berry.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/coenzyme-q10.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/omega-3-fatty-acids.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/potassium-citrate.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/nettles-urtica-dioica.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/colloidal-silver.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/peppermint-mentha-piperita.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/valerian-root.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/colloidal-oatmeal.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/gotu-kola-centella-asiatica.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/holy-basil-tulsi.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
