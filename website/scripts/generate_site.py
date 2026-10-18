@@ -10,7 +10,7 @@ from jinja2 import Environment, FileSystemLoader
 import shutil
 
 BASE_DIR = Path(__file__).parent.parent
-CANONICAL_JSON_DIR = BASE_DIR.parent / "data" / "canonical" / "json"
+CANONICAL_JSON_DIR = BASE_DIR.parent.parent / "altmedbase" / "data" / "canonical" / "json"
 TEMPLATES_DIR = BASE_DIR / "templates"
 DIST_DIR = BASE_DIR / "dist"
 CSS_DIR = DIST_DIR / "css"
@@ -102,15 +102,38 @@ def build_reverse_relationships(item, data):
 
 def build_index(config, data):
     """Build the home page."""
+    # data is already a dict of collections: {collection_name: [items, ...]}
+    # The template accesses data.ailments, data.remedies etc., so we need to
+    # make sure these are accessible. data already has this structure.
     stats = {k: len(v) for k, v in data.items()}
+    # Build lookup dict that templates expect
+    lookup = {}
+    for coll_name, items in data.items():
+        for item in items:
+            lookup[item["id"]] = item
+    # Convert data dict to object-like structure for template access
+    class DataAccessor:
+        def __init__(self, data_dict):
+            # Store the dict and create attributes for each collection
+            self._data = data_dict
+            # Set attributes for each collection that exists in the data
+            for key in data_dict:
+                # Store as both attribute and accessible via getattr
+                setattr(self, key, data_dict[key])
+        
+        def items(self):
+            return self._data.items()
+    
+    data_accessor = DataAccessor(data)
     render_page("index.html", "index.html", {
         "config": config,
         "title": "Home",
-        "data": data,
+        "data": data_accessor,
         "stats": stats,
         "collection_prefixes": COLLECTION_TO_PREFIX,
         "PREFIX_TO_COLLECTION": PREFIX_TO_COLLECTION,
         "get_url_for_item": get_url_for_item,
+        "lookup": lookup,
     })
 
 
