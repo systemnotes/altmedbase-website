@@ -51,9 +51,11 @@ def load_data():
 
 
 def render_page(template_name, output_name, context):
+    print(f"DEBUG: render_page called with output_name={output_name!r}")
     template = env.get_template(template_name)
     html = template.render(**context)
     output_path = DIST_DIR / output_name
+    print(f"DEBUG: output_path={output_path!r}, exists={output_path.exists()}")
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(html)
     print(f"Generated: {output_path}")
@@ -157,7 +159,9 @@ def build_collection_page(config, data, collection_name, filename):
 def build_item_page(config, data, item, collection_name, template_name, output_name=None):
     """Build an individual item page (remedy, ailment, protocol, etc.)."""
     if not output_name:
-        output_name = f"{item['id']}.html"
+        # Determine the subdirectory based on collection name
+        # Use plural collection name for directory (e.g., "ailments", "remedies")
+        output_name = f"{collection_name}/{item['id']}.html"
 
     # Build lookup dict for cross-referencing (ID -> item).
     lookup = {}
