@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} – {{ config.site_name }}</title>
+  <meta name="description" content="{{ summary | default(config.site_description, true) }}">
+  <meta name="keywords" content="{{ keywords | default('', true) }}">
+  <link rel="canonical" href="{{ canonical_url | default('https://altmedbase.com/', true) }}">
+  <!-- OpenGraph -->
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ summary | default(config.site_description, true) }}">
+  <meta property="og:type" content="{{ og_type | default('website', true) }}">
+  <meta property="og:url" content="{{ canonical_url | default('https://altmedbase.com/', true) }}">
+  <!-- JSON-LD structured data -->
+  <script type="application/ld+json">
+  {{ json_ld | safe | default('', true) }}
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">{{ config.site_name }}</a>
+      <ul class="menu">
+        {% for item in config.menu %}
+        <li><a href="{{ item.path }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+      <div class="search-box">
+        <input type="text" id="header-search" placeholder="Search remedies, ailments..." autocomplete="off" />
+        <a href="search.html" style="color:rgba(255,255,255,0.7);">🔍</a>
+      </div>
+    </nav>
+  </header>
+  <main>{% block content %}{{ content | safe }}{% endblock %}</main>
+  <footer><small>Research directory – not medical advice. All content is aggregated from public sources and labeled by evidence type.</small></footer>
+</body>
+</html>
