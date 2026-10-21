@@ -16,20 +16,20 @@
   <script type="application/ld+json">
   {{ json_ld | safe | default('', true) }}
   </script>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="{{ root_url('css/style.css') }}">
 </head>
 <body>
   <header>
     <nav>
-      <a href="index.html" class="logo">{{ config.site_name }}</a>
+      <a href="{{ root_url('index.html') }}" class="logo">{{ config.site_name }}</a>
       <ul class="menu">
         {% for item in config.menu %}
-        <li><a href="{{ item.path }}">{{ item.title }}</a></li>
+        <li><a href="{{ root_url(item.path) }}">{{ item.title }}</a></li>
         {% endfor %}
       </ul>
       <div class="search-box">
         <input type="text" id="header-search" placeholder="Search remedies, ailments..." autocomplete="off" />
-        <a href="search.html" style="color:rgba(255,255,255,0.7);">🔍</a>
+        <a href="{{ root_url('search.html') }}" style="color:rgba(255,255,255,0.7);">🔍</a>
       </div>
     </nav>
   </header>
