@@ -75,17 +75,19 @@ header nav ul.menu {
 }
 
 header nav ul.menu li a {
-  color: var(--primary-dark);
+  color: #ffffff;
   text-decoration: none;
   background: rgba(255,255,255,0.1);
   padding: 0.35rem 0.7rem;
   border-radius: 6px;
   font-size: 0.9rem;
-  transition: background 0.2s;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
 }
 
 header nav ul.menu li a:hover {
-  background: rgba(255,255,255,0.25);
+  background: var(--primary);
+  color: #ffffff;
 }
 
 .search-box {
