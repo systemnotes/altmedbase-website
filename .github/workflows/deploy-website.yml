@@ -26,6 +26,10 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
+        with:
+          # Switch Pages from legacy branch mode to Actions mode so the
+          # uploaded website/dist artifact is what gets published.
+          enablement: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
