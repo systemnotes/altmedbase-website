@@ -406,6 +406,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://altmedbase.com/ailments/enlarged-prostate-bph.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://altmedbase.com/references/who-monograph-on-selected-medicinal-plants-volume-1.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1002,6 +1007,41 @@
   </url>
   <url>
     <loc>https://altmedbase.com/remedies/n-acetylcysteine.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/saw-palmetto.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/pygeum-africanum.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/nettle-root.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/pumpkin-seed.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/buchu.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/echinacea-purple.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/remedies/goldenrod.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
