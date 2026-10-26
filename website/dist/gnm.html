@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GNM Knowledge Base – Natural Remedies Directory</title>
+  <meta name="description" content="German New Medicine (GNM) and German Healing Knowledge: biological conflicts, phases, and treatment timing by organ and condition.">
+  <meta name="keywords" content="GNM, German New Medicine, GKN, bio-physics, biological conflicts, healing phases">
+  <link rel="canonical" href="https://altmedbase.com/">
+  <!-- OpenGraph -->
+  <meta property="og:title" content="GNM Knowledge Base">
+  <meta property="og:description" content="German New Medicine (GNM) and German Healing Knowledge: biological conflicts, phases, and treatment timing by organ and condition.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://altmedbase.com/">
+  <!-- JSON-LD structured data -->
+  <script type="application/ld+json">
+  
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Natural Remedies Directory</a>
+      <ul class="menu">
+        
+        <li><a href="index.html">Home</a></li>
+        
+        <li><a href="remedies.html">Remedies</a></li>
+        
+        <li><a href="ailments.html">Ailments</a></li>
+        
+        <li><a href="therapies.html">Therapies</a></li>
+        
+        <li><a href="protocols.html">Protocols</a></li>
+        
+        <li><a href="products.html">Products</a></li>
+        
+        <li><a href="testimonials.html">Testimonials</a></li>
+        
+        <li><a href="references.html">References</a></li>
+        
+        <li><a href="about.html">About</a></li>
+        
+      </ul>
+      <div class="search-box">
+        <input type="text" id="header-search" placeholder="Search remedies, ailments..." autocomplete="off" />
+        <a href="search.html" style="color:rgba(255,255,255,0.7);">🔍</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+<h1>GNM / GHK Knowledge Base</h1>
+<p class="page-lead">German New Medicine and German Healing Knowledge: biological conflicts, healing phases, and treatment timing by organ and condition.</p>
+
+<!-- Filter bar -->
+<div class="filter-bar">
+  <div class="filter-group">
+    <label class="field-label">Organ:</label>
+    <select id="filter-organ" onchange="applyFilters()">
+      <option value="">All organs</option>
+      
+      <option value="organ=Adrenal Glands">Adrenal Glands</option>
+      
+      <option value="organ=Breast Glands">Breast Glands</option>
+      
+      <option value="organ=Bronchial Mucosa">Bronchial Mucosa</option>
+      
+      <option value="organ=Colon">Colon</option>
+      
+      <option value="organ=Coronary Arteries">Coronary Arteries</option>
+      
+      <option value="organ=Joints (Synovium)">Joints (Synovium)</option>
+      
+      <option value="organ=Kidney Collecting Tubules">Kidney Collecting Tubules</option>
+      
+      <option value="organ=Liver Bile Ducts">Liver Bile Ducts</option>
+      
+      <option value="organ=Prostate">Prostate</option>
+      
+      <option value="organ=Skin (Epidermis)">Skin (Epidermis)</option>
+      
+      <option value="organ=Stomach (Cardia/Upper)">Stomach (Cardia/Upper)</option>
+      
+      <option value="organ=Thyroid">Thyroid</option>
+      
+    </select>
+  </div>
+  <div class="filter-group">
+    <label class="field-label">Conflict Theme:</label>
+    <select id="filter-theme" onchange="applyFilters()">
+      <option value="">All themes</option>
+      
+      <option value="theme=Being Burdened by Male Sexual Needs">Being Burdened by Male Sexual Needs</option>
+      
+      <option value="theme=Conflict with Eating/Loss of Control">Conflict with Eating/Loss of Control</option>
+      
+      <option value="theme=Fear of Inadequacy or Being Overloaded">Fear of Inadequacy or Being Overloaded</option>
+      
+      <option value="theme=Fear of being Choked or Difficulty Breathing">Fear of being Choked or Difficulty Breathing</option>
+      
+      <option value="theme=Fluid Retention / Excess">Fluid Retention / Excess</option>
+      
+      <option value="theme=Obstacle/Non-Freedom">Obstacle/Non-Freedom</option>
+      
+      <option value="theme=Overwork / Burden">Overwork / Burden</option>
+      
+      <option value="theme=Pathological Avoidance">Pathological Avoidance</option>
+      
+      <option value="theme=Spurious Attack">Spurious Attack</option>
+      
+      <option value="theme=Territory Loss">Territory Loss</option>
+      
+      <option value="theme=Toxic Buildup in the Organs">Toxic Buildup in the Organs</option>
+      
+    </select>
+  </div>
+  <div class="filter-group">
+    <label class="field-label">Phase:</label>
+    <select id="filter-phase" onchange="applyFilters()">
+      <option value="">All phases</option>
+      <option value="healing-phase-support">Healing Phase Support</option>
+      <option value="healing-phase-contraindicated">Contraindicated in Healing</option>
+      <option value="both">Both phases</option>
+    </select>
+  </div>
+</div>
+
+<!-- Active filter chips -->
+<div id="active-filters"></div>
+
+<!-- Conflict cards grid -->
+<div class="gnm-grid">
+  
+  <div class="conflict-card"
+       data-organ="Prostate"
+       data-theme="Territory Loss"
+       data-phase="healing-phase-support,healing-phase-contraindicated">
+    <div class="conflict-header">
+      <h4>Territory Loss</h4>
+      
+      <span class="tag">Male: territorial defense; Female: fear of sexual inadequacy</span>
+      
+    </div>
+
+    <p class="conflict-organ"><span class="field-label">Organ:</span> Prostate</p>
+
+    <p class="conflict-active-phase"><span class="field-label">Conflict-Active Phase:</span> Prostatic hyperplasia development - prostate tissue proliferates to defend territory</p>
+
+    <p class="conflict-healing-phase"><span class="field-label">Healing Phase:</span> Prostatic enlargement, urinary obstruction, BPH symptoms - healing crisis (epicrisis)</p>
+
+    <p class="conflict-crisis"><span class="field-label">Crisis:</span> Urinary retention, bladder overdistension, potential acute urinary retention</p>
+
+    
+    <div class="treatment-timing">
+      
+      <span class="badge warning">When to Treat:</span> Healing phase only - support tissue remodeling, avoid suppression of symptoms
+      
+      
+      <span class="badge info">When NOT to Treat:</span> Active phase - do NOT use alpha-blockers or 5-alpha-reductase inhibitors (widens vessels further)
+      
+    </div>
+    
+
+    
+
+    
+    <div class="conflict-remedies">
+      <span class="field-label">Supportive remedies:</span>
+      
+      <span class="tag">remedy_109</span>
+      
+      <span class="tag">remedy_038</span>
+      
+      <span class="tag">remedy_111</span>
+      
+    </div>
+    
+  </div>
+  
+  <div class="conflict-card"
+       data-organ="Coronary Arteries"
+       data-theme="Territory Loss"
+       data-phase="healing-phase-support,healing-phase-contraindicated">
+    <div class="conflict-header">
+      <h4>Territory Loss</h4>
+      
+      <span class="tag">Male: territory loss; Female: territorial fear</span>
+      
+    </div>
+
+    <p class="conflict-organ"><span class="field-label">Organ:</span> Coronary Arteries</p>
+
+    <p class="conflict-active-phase"><span class="field-label">Conflict-Active Phase:</span> Ulceration of intima, widening of vessel lumen, angina pectoris - heart attack imminent</p>
+
+    <p class="conflict-healing-phase"><span class="field-label">Healing Phase:</span> Cholesterol and cell proliferation deposit to repair vessel wall → arteriosclerosis, heart attack (clot), stroke (epicrisis)</p>
+
+    <p class="conflict-crisis"><span class="field-label">Crisis:</span> Heart attack, stroke, or absence seizure (petit mal)</p>
+
+    
+    <div class="treatment-timing">
+      
+      <span class="badge warning">When to Treat:</span> Healing phase - support cholesterol repair, NO statins, NO aggressive blood thinners during crisis
+      
+      
+      <span class="badge info">When NOT to Treat:</span> Active phase - cholesterol-lowering widens vessel further, worsens ischemia
+      
+    </div>
+    
+
+    
+
+    
+    <div class="conflict-remedies">
+      <span class="field-label">Supportive remedies:</span>
+      
+      <span class="tag">remedy_042</span>
+      
+      <span class="tag">remedy_037</span>
+      
+      <span class="tag">remedy_038</span>
+      
+      <span class="tag">remedy_092</span>
+      
+    </div>
+    
+  </div>
+  
+  <div class="conflict-card"
+       data-organ="Stomach (Cardia/Upper)"
+       data-theme="Conflict with Eating/Loss of Control"
+       data-phase="healing-phase-support,healing-phase-contraindicated">
+    <div class="conflict-header">
+      <h4>Conflict with Eating/Loss of Control</h4>
+      
+      <span class="tag">Both: fear of inability to control eating</span>
+      
+    </div>
+
+    <p class="conflict-organ"><span class="field-label">Organ:</span> Stomach (Cardia/Upper)</p>
+
+    <p class="conflict-active-phase"><span class="field-label">Conflict-Active Phase:</span> Gastric ulcer at cardia, reduced stomach acid, early satiety - digestive issues</p>
+
+    <p class="conflict-healing-phase"><span class="field-label">Healing Phase:</span> Inflammation, acid rebound, heartburn, acid reflux/GERD - healing crisis</p>
+
+    <p class="conflict-crisis"><span class="field-label">Crisis:</span> Severe heartburn, possible esophageal damage, vomiting</p>
+
+    
+    <div class="treatment-timing">
+      
+      <span class="badge warning">When to Treat:</span> Healing phase - support mucosal repair with soothing herbs, avoid acid suppressors that delay healing
+      
+      
+      <span class="badge info">When NOT to Treat:</span> Active phase - antacids can worsen ulcer by reducing protective acid
+      
+    </div>
+    
+
+    
+
+    
+    <div class="conflict-remedies">
+      <span class="field-label">Supportive remedies:</span>
+      
+      <span class="tag">remedy_004</span>
+      
+      <span class="tag">remedy_040</span>
+      
+      <span class="tag">remedy_061</span>
+      
+    </div>
+    
+  </div>
+  
+  <div class="conflict-card"
+       data-organ="Bronchial Mucosa"
+       data-theme="Fear of being Choked or Difficulty Breathing"
+       data-phase="healing-phase-support,healing-phase-contraindicated">
+    <div class="conflict-header">
+      <h4>Fear of being Choked or Difficulty Breathing</h4>
+      
+      <span class="tag">Both: fear of choking or being unable to breathe</span>
+      
+    </div>
+
+    <p class="conflict-organ"><span class="field-label">Organ:</span> Bronchial Mucosa</p>
+
+    <p class="conflict-active-phase"><span class="field-label">Conflict-Active Phase:</span> Bronchospasm, mucus production, bronchitis - airway narrowing</p>
+
+    <p class="conflict-healing-phase"><span class="field-label">Healing Phase:</span> Inflammation, congestion, cough, asthma exacerbation - healing crisis</p>
+
+    <p class="conflict-crisis"><span class="field-label">Crisis:</span> Severe asthma attack, status asthmaticus, respiratory distress</p>
+
+    
+    <div class="treatment-timing">
+      
+      <span class="badge warning">When to Treat:</span> Healing phase - support mucous clearance, anti-inflammatory herbs, avoid bronchodilators during crisis
+      
+      
+      <span class="badge info">When NOT to Treat:</span> Active phase - suppressing cough can trap toxins, bronchodilators may mask worsening
+      
+    </div>
+    
+
+    
+
+    
+    <div class="conflict-remedies">
+      <span class="field-label">Supportive remedies:</span>
+      
+      <span class="tag">remedy_006</span>
+      
+      <span class="tag">remedy_075</span>
+      
+      <span class="tag">remedy_034</span>
+      
+    </div>
+    
+  </div>
+  
+  <div class="conflict-card"
+       data-organ="Colon"
+       data-theme="Pathological Avoidance"
+       data-phase="healing-phase-support,healing-phase-contraindicated">
+    <div class="conflict-header">
+      <h4>Pathological Avoidance</h4>
+      
+      <span class="tag">Both: fear of contact with waste/corruption</span>
+      
+    </div>
+
+    <p class="conflict-organ"><span class="field-label">Organ:</span> Colon</p>
+
+    <p class="conflict-active-phase"><span class="field-label">Conflict-Active Phase:</span> Diarrhea or constipation depending on nature of avoidance - bowel symptoms</p>
+
+    <p class="conflict-healing-phase"><span class="field-label">Healing Phase:</span> Bowel dysfunction, IBS, hemorrhoids, anal fissures - healing crisis</p>
+
+    <p class="conflict-crisis"><span class="field-label">Crisis:</span> Severe diarrhea, dehydration, or severe constipation with obstruction</p>
+
+    
+    <div class="treatment-timing">
+      
+      <span class="badge warning">When to Treat:</span> Healing phase - restore normal motility, support gut flora, probiotics
+      
+      
+      <span class="badge info">When NOT to Treat:</span> Active phase - anti-diarrheal or laxative can worsen underlying conflict
+      
+    </div>
+    
+
+    
+
+    
+    <div class="conflict-remedies">
+      <span class="field-label">Supportive remedies:</span>
+      
+      <span class="tag">remedy_016</span>
+      
+      <span class="tag">remedy_030</span>
+      
+      <span class="tag">remedy_048</span>
+      
+    </div>
+    
+  </div>
+  
+  <div class="conflict-card"
+       data-organ="Breast Glands"
+       data-theme="Being Burdened by Male Sexual Needs"
+       data-phase="healing-phase-support,healing-phase-contraindicated">
+    <div class="conflict-header">
+      <h4>Being Burdened by Male Sexual Needs</h4>
+      
+      <span class="tag">Female: fear of being burdened by male sexual needs or impregnation</span>
+      
+    </div>
+
+    <p class="conflict-organ"><span class="field-label">Organ:</span> Breast Glands</p>
+
+    <p class="conflict-active-phase"><span class="field-label">Conflict-Active Phase:</span> Fibroadenoma, mastitis, breast tissue proliferation</p>
+
+    <p class="conflict-healing-phase"><span class="field-label">Healing Phase:</span> Breast inflammation, cysts, fibrocystic changes - healing crisis</p>
+
+    <p class="conflict-crisis"><span class="field-label">Crisis:</span> Severe mastitis, abscess, or fibrotic healing stage</p>
+
+    
+    <div class="treatment-timing">
+      
+      <span class="badge warning">When to Treat:</span> Healing phase - support lymphatic drainage, anti-inflammatory herbs, avoid hormonal suppression
+      
+      
+      <span class="badge info">When NOT to Treat:</span> Active phase - hormonal treatments can worsen conflict-driven proliferation
+      
+    </div>
+    
+
+    
+
+    
+    <div class="conflict-remedies">
+      <span class="field-label">Supportive remedies:</span>
+      
+      <span class="tag">remedy_017</span>
+      
+      <span class="tag">remedy_063</span>
+      
+      <span class="tag">remedy_082</span>
+      
+    </div>
+    
+  </div>
+  
+  <div class="conflict-card"
+       data-organ="Thyroid"
+       data-theme="Fear of Inadequacy or Being Overloaded"
+       data-phase="healing-phase-support,healing-phase-contraindicated">
+    <div class="conflict-header">
+      <h4>Fear of Inadequacy or Being Overloaded</h4>
+      
+      <span class="tag">Both: fear of not being enough or being overwhelmed by responsibility</span>
+      
+    </div>
+
+    <p class="conflict-organ"><span class="field-label">Organ:</span> Thyroid</p>
+
+    <p class="conflict-active-phase"><span class="field-label">Conflict-Active Phase:</span> Hypothyroidism - thyroid atrophy in response to perceived inadequacy</p>
+
+    <p class="conflict-healing-phase"><span class="field-label">Healing Phase:</span> Thyrotoxicosis (hyperthyroid symptoms), goiter, thyroid storm - healing crisis</p>
+
+    <p class="conflict-crisis"><span class="field-label">Crisis:</span> Severe thyroid storm, cardiovascular collapse, coma</p>
+
+    
+    <div class="treatment-timing">
+      
+      <span class="badge warning">When to Treat:</span> Healing phase - support thyroid function, avoid iodine loads that trigger storm
+      
+      
+      <span class="badge info">When NOT to Treat:</span> Active phase - thyroid hormone replacement can suppress natural healing phase
+      
+    </div>
+    
+
+    
+
+    
+    <div class="conflict-remedies">
+      <span class="field-label">Supportive remedies:</span>
+      
+      <span class="tag">remedy_021</span>
+      
+      <span class="tag">remedy_095</span>
+      
+      <span class="tag">remedy_096</span>
+      
+    </div>
+    
+  </div>
+  
+  <div class="conflict-card"
+       data-organ="Adrenal Glands"
+       data-theme="Overwork / Burden"
+       data-phase="healing-phase-support,healing-phase-contraindicated">
+    <div class="conflict-header">
+      <h4>Overwork / Burden</h4>
+      
+      <span class="tag">Both: fear of being unable to handle demands</span>
+      
+    </div>
+
+    <p class="conflict-organ"><span class="field-label">Organ:</span> Adrenal Glands</p>
+
+    <p class="conflict-active-phase"><span class="field-label">Conflict-Active Phase:</span> Adrenal insufficiency, fatigue, low cortisol - exhaustion</p>
+
+    <p class="conflict-healing-phase"><span class="field-label">Healing Phase:</span> Adrenal hyperfunction, hypertension, palpitations, anxiety - healing crisis</p>
+
+    <p class="conflict-crisis"><span class="field-label">Crisis:</span> Adrenal storm, severe hypertension, cardiovascular collapse</p>
+
+    
+    <div class="treatment-timing">
+      
+      <span class="badge warning">When to Treat:</span> Healing phase - support adrenal resilience, adaptogenic herbs, avoid stimulants
+      
+      
+      <span class="badge info">When NOT to Treat:</span> Active phase - high-dose cortisol can suppress natural healing
+      
+    </div>
+    
+
+    
+
+    
+    <div class="conflict-remedies">
+      <span class="field-label">Supportive remedies:</span>
+      
+      <span class="tag">remedy_025</span>
+      
+      <span class="tag">remedy_041</span>
+      
+      <span class="tag">remedy_066</span>
+      
+    </div>
+    
+  </div>
+  
+  <div class="conflict-card"
+       data-organ="Skin (Epidermis)"
+       data-theme="Spurious Attack"
+       data-phase="healing-phase-support,healing-phase-contraindicated">
+    <div class="conflict-header">
+      <h4>Spurious Attack</h4>
+      
+      <span class="tag">Both: fear of attack</span>
+      
+    </div>
+
+    <p class="conflict-organ"><span class="field-label">Organ:</span> Skin (Epidermis)</p>
+
+    <p class="conflict-active-phase"><span class="field-label">Conflict-Active Phase:</span> Acne, eczema, psoriasis, skin lesions - inflammation</p>
+
+    <p class="conflict-healing-phase"><span class="field-label">Healing Phase:</span> Healing crisis - severe inflammation, blisters, crusting - epidermal regeneration</p>
+
+    <p class="conflict-crisis"><span class="field-label">Crisis:</span> Severe skin breakdown, systemic inflammation, autoimmune flare</p>
+
+    
+    <div class="treatment-timing">
+      
+      <span class="badge warning">When to Treat:</span> Healing phase - support skin regeneration, avoid harsh topical treatments
+      
+      
+      <span class="badge info">When NOT to Treat:</span> Active phase - aggressive topical treatments can worsen inflammation
+      
+    </div>
+    
+
+    
+
+    
+    <div class="conflict-remedies">
+      <span class="field-label">Supportive remedies:</span>
+      
+      <span class="tag">remedy_009</span>
+      
+      <span class="tag">remedy_017</span>
+      
+      <span class="tag">remedy_063</span>
+      
+    </div>
+    
+  </div>
+  
+  <div class="conflict-card"
+       data-organ="Joints (Synovium)"
+       data-theme="Obstacle/Non-Freedom"
+       data-phase="healing-phase-support,healing-phase-contraindicated">
+    <div class="conflict-header">
+      <h4>Obstacle/Non-Freedom</h4>
+      
+      <span class="tag">Both: fear of being stuck</span>
+      
+    </div>
+
+    <p class="conflict-organ"><span class="field-label">Organ:</span> Joints (Synovium)</p>
+
+    <p class="conflict-active-phase"><span class="field-label">Conflict-Active Phase:</span> Normal joint function, no inflammation - joint health maintained</p>
+
+    <p class="conflict-healing-phase"><span class="field-label">Healing Phase:</span> Arthritis, joint inflammation, stiffness, pain - healing crisis (epicrisis)</p>
+
+    <p class="conflict-crisis"><span class="field-label">Crisis:</span> Severe joint destruction, osteophytes, chronic arthritis complications</p>
+
+    
+    <div class="treatment-timing">
+      
+      <span class="badge warning">When to Treat:</span> Healing phase - support joint repair, anti-inflammatory herbs, avoid NSAIDs during crisis
+      
+      
+      <span class="badge info">When NOT to Treat:</span> Active phase - joint supplements can interfere with natural healing response
+      
+    </div>
+    
+
+    
+
+    
+    <div class="conflict-remedies">
+      <span class="field-label">Supportive remedies:</span>
+      
+      <span class="tag">remedy_003</span>
+      
+      <span class="tag">remedy_001</span>
+      
+      <span class="tag">remedy_035</span>
+      
+    </div>
+    
+  </div>
+  
+  <div class="conflict-card"
+       data-organ="Liver Bile Ducts"
+       data-theme="Toxic Buildup in the Organs"
+       data-phase="healing-phase-support,healing-phase-contraindicated">
+    <div class="conflict-header">
+      <h4>Toxic Buildup in the Organs</h4>
+      
+      <span class="tag">Both: fear of being poisoned or contaminated by toxins</span>
+      
+    </div>
+
+    <p class="conflict-organ"><span class="field-label">Organ:</span> Liver Bile Ducts</p>
+
+    <p class="conflict-active-phase"><span class="field-label">Conflict-Active Phase:</span> Normal bile flow, liver detoxification active</p>
+
+    <p class="conflict-healing-phase"><span class="field-label">Healing Phase:</span> Gallbladder disease, gallstones, bile duct inflammation - healing crisis</p>
+
+    <p class="conflict-crisis"><span class="field-label">Crisis:</span> Cholestasis, liver failure, severe gallstone complications</p>
+
+    
+    <div class="treatment-timing">
+      
+      <span class="badge warning">When to Treat:</span> Healing phase - support bile flow, milk thistle, detox herbs, avoid fat restriction
+      
+      
+      <span class="badge info">When NOT to Treat:</span> Active phase - liver detox supplements can worsen bile duct healing
+      
+    </div>
+    
+
+    
+
+    
+    <div class="conflict-remedies">
+      <span class="field-label">Supportive remedies:</span>
+      
+      <span class="tag">remedy_040</span>
+      
+      <span class="tag">remedy_017</span>
+      
+      <span class="tag">remedy_064</span>
+      
+    </div>
+    
+  </div>
+  
+  <div class="conflict-card"
+       data-organ="Kidney Collecting Tubules"
+       data-theme="Fluid Retention / Excess"
+       data-phase="healing-phase-support,healing-phase-contraindicated">
+    <div class="conflict-header">
+      <h4>Fluid Retention / Excess</h4>
+      
+      <span class="tag">Both: fear of being overloaded with fluid or toxins</span>
+      
+    </div>
+
+    <p class="conflict-organ"><span class="field-label">Organ:</span> Kidney Collecting Tubules</p>
+
+    <p class="conflict-active-phase"><span class="field-label">Conflict-Active Phase:</span> Kidney concentrating ability, normal fluid balance</p>
+
+    <p class="conflict-healing-phase"><span class="field-label">Healing Phase:</span> Edema, fluid retention, kidney inflammation - healing crisis</p>
+
+    <p class="conflict-crisis"><span class="field-label">Crisis:</span> Severe edema, kidney failure, anaphylactic shock-like response</p>
+
+    
+    <div class="treatment-timing">
+      
+      <span class="badge warning">When to Treat:</span> Healing phase - support kidney filtration, diuretic herbs, salt repletion, avoid aggressive diuretics during crisis
+      
+      
+      <span class="badge info">When NOT to Treat:</span> Active phase - diuretics can worsen fluid balance and hide underlying conflict
+      
+    </div>
+    
+
+    
+
+    
+    <div class="conflict-remedies">
+      <span class="field-label">Supportive remedies:</span>
+      
+      <span class="tag">remedy_012</span>
+      
+      <span class="tag">remedy_014</span>
+      
+      <span class="tag">remedy_068</span>
+      
+    </div>
+    
+  </div>
+  
+</div>
+
+<!-- Search across all items -->
+<div class="section">
+  <h3>Also find resources across the directory</h3>
+  <input type="text" id="gnm-search" placeholder="Search remedies, products, ailments...">
+  <ul id="gnm-results"></ul>
+</div>
+
+<script>
+  // Fetch search index
+  fetch("search_index.json")
+    .then(r => r.json())
+    .then(data => { window.searchIndex = data; })
+    .catch(err => console.error('Failed to load search index', err));
+
+  function applyFilters() {
+    const organ = document.getElementById('filter-organ').value.split('=')[1];
+    const theme = document.getElementById('filter-theme').value.split('=')[1];
+    const phase = document.getElementById('filter-phase').value;
+
+    const cards = document.querySelectorAll('.conflict-card');
+    cards.forEach(c => c.style.display = '');
+
+    if (organ) {
+      cards.forEach(card => {
+        if (card.getAttribute('data-organ') !== organ) {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    if (theme) {
+      cards.forEach(card => {
+        if (card.getAttribute('data-theme') !== theme) {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    if (phase) {
+      cards.forEach(card => {
+        const tags = card.getAttribute('data-phase') || '';
+        if (!tags.includes(phase)) {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    updateActiveFilters(organ, theme, phase);
+  }
+
+  function updateActiveFilters(organ, theme, phase) {
+    const el = document.getElementById('active-filters');
+    let html = '';
+    if (organ) html += `<span class="filter-chip">Organ: ${organ}</span> `;
+    if (theme) html += `<span class="filter-chip">Theme: ${theme}</span> `;
+    if (phase) html += `<span class="filter-chip">Phase: ${phase}</span> `;
+    el.innerHTML = html;
+  }
+</script>
+</main>
+  <footer><small>Research directory – not medical advice. All content is aggregated from public sources and labeled by evidence type.</small></footer>
+</body>
+</html>

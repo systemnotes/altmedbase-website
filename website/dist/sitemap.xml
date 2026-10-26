@@ -6,6 +6,16 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://altmedbase.com/gnm_conflicts.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/comments.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://altmedbase.com/suppliers.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -87,6 +97,31 @@
   </url>
   <url>
     <loc>https://altmedbase.com/suppliers/bulk-supplements.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/suppliers/now-foods.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/suppliers/thorne-research.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/suppliers/pure-encapsulations.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/suppliers/gaia-herbs.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/suppliers/designs-for-health.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1062,6 +1097,46 @@
   </url>
   <url>
     <loc>https://altmedbase.com/therapies/herbal-steam-inhalation-bastrika.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/therapies/chlorine-dioxide-cds-mms-protocol.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/therapies/ozone-therapy-major-autohemotherapy.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/therapies/rife-frequency-therapy.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/therapies/pemf-pulsed-electromagnetic-field-therapy.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/therapies/hydrogen-peroxide-h2o2-oxidative-therapy.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/therapies/biophoton-therapy.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/therapies/terrain-theory-darkfield-microscopy.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/therapies/german-new-medicine-gnm-conflict-resolution.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
