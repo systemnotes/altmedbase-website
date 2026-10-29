@@ -611,27 +611,27 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://altmedbase.com/protocols/mms-protocol-1000-basic.html</loc>
+    <loc>https://altmedbase.com/protocols/protocol-1000-basic.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://altmedbase.com/protocols/mms-protocol-1000+-bath.html</loc>
+    <loc>https://altmedbase.com/protocols/protocol-1000+-bath.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://altmedbase.com/protocols/mms-protocol-2000-topical.html</loc>
+    <loc>https://altmedbase.com/protocols/protocol-3000-topical.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://altmedbase.com/protocols/mms-protocol-2000+-prostate-support.html</loc>
+    <loc>https://altmedbase.com/protocols/protocol-2000-cancer.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://altmedbase.com/protocols/mms-protocol-3000-detoxification.html</loc>
+    <loc>https://altmedbase.com/protocols/protocol-4000-mms2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
