@@ -611,6 +611,31 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://altmedbase.com/protocols/mms-protocol-a-basic.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/protocols/mms-protocol-b-bath.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/protocols/mms-protocol-c-topical-application.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/protocols/mms-protocol-d-prostate-support.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://altmedbase.com/protocols/mms-protocol-e-detoxification.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://altmedbase.com/education/clinical-herbalism-certificate-program.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
