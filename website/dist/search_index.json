@@ -2565,11 +2565,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-a-basic",
+    "id": "protocol-cds-protocol-a---amateur-or-beginner",
     "title": "Protocol A - Amateur or Beginner",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-a---basic.html",
+    "page_url": "protocols/protocol-cds-protocol-a---amateur-or-beginner.html",
     "summary": "Basic CDS protocol for foundational wellness support and mild conditions. 1 ml CDS in 100ml water, 2-3 times daily.",
     "tags": "cds protocol wellness detox",
     "indications": "Beginner Basic Foundational",
@@ -2592,7 +2592,7 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-b-bath",
+    "id": "protocol-cds-protocol-b---bath",
     "title": "Protocol B - Bath",
     "category": "Protocol",
     "collection": "protocols",
@@ -2619,11 +2619,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-c",
+    "id": "protocol-cds-protocol-c---cds-standard",
     "title": "Protocol C - CDS (the standard protocol)",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-c.html",
+    "page_url": "protocols/protocol-cds-protocol-c---cds-standard.html",
     "summary": "Oral CDS protocol (Protocol C) is the most widely used method to treat various diseases and is also an effective procedure for detoxification. 1 ml CDS in 100ml water every hour, up to 8 doses daily, then reduce to maintenance dose as needed. This protocol is the most common and is indicated in case of doubts about how to get started.",
     "tags": "cds protocol wellness",
     "indications": "CDS standard protocol Standard General dosing",
@@ -2646,11 +2646,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-d-cancer",
+    "id": "protocol-cds-protocol-d---dermatological",
     "title": "Protocol D - Dermatological (for the skin)",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-d---cancer.html",
+    "page_url": "protocols/protocol-cds-protocol-d---dermatological.html",
     "summary": "Cancer-focused CDS protocol with increased dosing for tumor support. Higher concentration and frequency for aggressive malignancy treatment.",
     "tags": "cds protocol cancer oncology",
     "indications": "Dermatological Skin conditions",
@@ -2673,11 +2673,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-e-detoxification",
+    "id": "protocol-cds-protocol-e---enemas",
     "title": "Protocol E - Enemas",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-e---detoxification.html",
+    "page_url": "protocols/protocol-cds-protocol-e---enemas.html",
     "summary": "Deep detoxification protocol using enhanced dosing for significant toxin elimination and systemic cleansing.",
     "tags": "cds protocol detox",
     "indications": "Enemas Intestinal cleansing",
@@ -2700,11 +2700,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-f-immune-support",
+    "id": "protocol-cds-protocol-f---frequent-or-fever",
     "title": "Protocol F - Frequent or Fever",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-f---immune-support.html",
+    "page_url": "protocols/protocol-cds-protocol-f---frequent-or-fever.html",
     "summary": "Immune system support protocol using supportive dosing and reduced frequency for maintenance.",
     "tags": "cds protocol immune wellness",
     "indications": "Frequent Fever Acute conditions",
@@ -2727,11 +2727,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-g-respiratory",
+    "id": "protocol-cds-protocol-g---gas",
     "title": "Protocol G - Gas (when only the gas is used)",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-g---respiratory.html",
+    "page_url": "protocols/protocol-cds-protocol-g---gas.html",
     "summary": "WARNING: Gas inhalation protocol. CDS must NOT be inhaled. This protocol is for external/transdermal use only. For respiratory conditions, use Protocol F (Immune Support) or consult a practitioner. Improper inhalation can cause severe lung damage.",
     "tags": "cds protocol respiratory respiratory",
     "indications": "Gas protocol Inhalation caution",
@@ -2754,11 +2754,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-h-cardiovascular",
+    "id": "protocol-cds-protocol-h---habitat-room",
     "title": "Protocol H - Habitat / Room (to avoid contagion)",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-h---cardiovascular.html",
+    "page_url": "protocols/protocol-cds-protocol-h---habitat-room.html",
     "summary": "Home support protocol for household and family wellness. Gentle CDS dosing for maintaining general health in the home environment. Not for clinical or intensive use. For ongoing low-level support and prevention.",
     "tags": "cds protocol cardiovascular heart",
     "indications": "Habitat disinfection Avoid contagion",
@@ -2781,11 +2781,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-i-inflammation",
+    "id": "protocol-cds-protocol-i---insects-stings-and-bites",
     "title": "Protocol I - Insects Stings and Bites",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-i---inflammation.html",
+    "page_url": "protocols/protocol-cds-protocol-i---insects-stings-and-bites.html",
     "summary": "Anti-inflammatory protocol using enhanced dosing for chronic inflammatory conditions.",
     "tags": "cds protocol inflammation anti-inflammatory",
     "indications": "Insect bites and stings Local reaction",
@@ -2808,11 +2808,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-j-joint-support",
+    "id": "protocol-cds-protocol-j---jaw-mouth",
     "title": "Protocol J - Jaw/ Mouth (mouth protocol)",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-j---joint-support.html",
+    "page_url": "protocols/protocol-cds-protocol-j---jaw-mouth.html",
     "summary": "Oral CDS mouthwash protocol for oral hygiene and joyful living. Mild CDS solution used as a daily mouthwash to support oral health, fresh breath, and overall wellbeing. Gentle concentration suitable for daily use. Not for treatment of clinical conditions.",
     "tags": "cds protocol joint arthritis",
     "indications": "Jaw/Mouth protocol Oral hygiene",
@@ -2835,11 +2835,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-k-detox-support",
+    "id": "protocol-cds-protocol-k---kit-dmso",
     "title": "Protocol K - Kit, combined with 70% DMSO",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-k---detox-support.html",
+    "page_url": "protocols/protocol-cds-protocol-k---kit-dmso.html",
     "summary": "Detoxification support protocol for systemic cleansing and toxin elimination.",
     "tags": "cds protocol detox support",
     "indications": "Kit DMSO combination 70% DMSO",
@@ -2862,11 +2862,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-l-energy-support",
+    "id": "protocol-cds-protocol-l---footwash",
     "title": "Protocol L - Footwash (Footbath protocol)",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-l---energy-support.html",
+    "page_url": "protocols/protocol-cds-protocol-l---footwash.html",
     "summary": "Energy and vitality support protocol using CDS for systemic support and wellness enhancement.",
     "tags": "cds protocol energy wellness",
     "indications": "Footwash Footbath protocol",
@@ -2889,11 +2889,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-m-burn-support",
+    "id": "protocol-cds-protocol-m---malaria",
     "title": "Protocol M - Malaria",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-m---burn-support.html",
+    "page_url": "protocols/protocol-cds-protocol-m---malaria.html",
     "summary": "Burn support protocol using CDS for healing and tissue repair support.",
     "tags": "cds protocol burn wound",
     "indications": "Malaria Parasitic treatment",
@@ -2916,11 +2916,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-n-wound-care",
+    "id": "protocol-cds-protocol-n---children-and-adolescents",
     "title": "Protocol N - Children and Adolescents",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-n---wound-care.html",
+    "page_url": "protocols/protocol-cds-protocol-n---children-and-adolescents.html",
     "summary": "Wound care protocol using CDS for infection support and healing facilitation.",
     "tags": "cds protocol wound care",
     "indications": "Children and Adolescents Pediatric",
@@ -2943,11 +2943,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-o-gut-support",
+    "id": "protocol-cds-protocol-o---ophthalmology",
     "title": "Protocol O - Ophthalmology / Otorhinolaryngology (nasal)",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-o---gut-support.html",
+    "page_url": "protocols/protocol-cds-protocol-o---ophthalmology.html",
     "summary": "Gastrointestinal support protocol using CDS for digestive conditions and gut healing.",
     "tags": "cds protocol gut digestive",
     "indications": "Ophthalmology/ENT Eye ear nose throat",
@@ -2970,11 +2970,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-p-brain-support",
+    "id": "protocol-cds-protocol-p---parasites",
     "title": "Protocol P - Parasites (intense protocol)",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-p---brain-support.html",
+    "page_url": "protocols/protocol-cds-protocol-p---parasites.html",
     "summary": "Cognitive support protocol using CDS for brain health and neuroprotection.",
     "tags": "cds protocol brain cognitive",
     "indications": "Parasites (intense protocol) Parasitic treatment",
@@ -2997,11 +2997,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-q-hormonal-support",
+    "id": "protocol-cds-protocol-q---burns",
     "title": "Protocol Q - Burns",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-q---hormonal-support.html",
+    "page_url": "protocols/protocol-cds-protocol-q---burns.html",
     "summary": "Hormonal support protocol using CDS for endocrine conditions and hormonal balance.",
     "tags": "cds protocol hormonal support",
     "indications": "Burns Burn treatment",
@@ -3024,11 +3024,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-r-thyroid-support",
+    "id": "protocol-cds-protocol-r---rectal-with-bulb",
     "title": "Protocol R - Rectal with bulb",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-r---thyroid-support.html",
+    "page_url": "protocols/protocol-cds-protocol-r---rectal-with-bulb.html",
     "summary": "Thyroid support protocol using CDS for thyroid conditions and metabolic support.",
     "tags": "cds protocol thyroid support",
     "indications": "Rectal with bulb Rectal administration",
@@ -3051,11 +3051,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-s-detoxification-intensive",
+    "id": "protocol-cds-protocol-s---sensitive",
     "title": "Protocol S - Sensitive (with very low doses)",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-s---detoxification-intensive.html",
+    "page_url": "protocols/protocol-cds-protocol-s---sensitive.html",
     "summary": "Intensive detoxification protocol using high-dose CDS for significant toxic burden.",
     "tags": "cds protocol detox intensive",
     "indications": "Sensitive (low doses) Sensitive individuals",
@@ -3078,11 +3078,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-t-cancer-adjunct",
+    "id": "protocol-cds-protocol-t---terminal",
     "title": "Protocol T - Terminal (very severe diseases)",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-t---cancer-adjunct.html",
+    "page_url": "protocols/protocol-cds-protocol-t---terminal.html",
     "summary": "Cancer adjunct protocol using supportive CDS dosing alongside conventional cancer treatment.",
     "tags": "cds protocol cancer adjunct",
     "indications": "Terminal (severe diseases) Terminal illness",
@@ -3105,11 +3105,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-u-kidney-support",
+    "id": "protocol-cds-protocol-u---urgent",
     "title": "Protocol U - Urgent",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-u---kidney-support.html",
+    "page_url": "protocols/protocol-cds-protocol-u---urgent.html",
     "summary": "Kidney support protocol using CDS for renal conditions and metabolic support.",
     "tags": "cds protocol kidney support",
     "indications": "Urgent Emergency",
@@ -3132,11 +3132,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-v-liver-support",
+    "id": "protocol-cds-protocol-v---vaginal",
     "title": "Protocol V - Vaginal (using irrigation)",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-v---liver-support.html",
+    "page_url": "protocols/protocol-cds-protocol-v---vaginal.html",
     "summary": "Liver support protocol using CDS for hepatic conditions and detoxification.",
     "tags": "cds protocol liver support",
     "indications": "Vaginal (irrigation) Vaginal administration",
@@ -3159,11 +3159,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-w-skin-conditions",
+    "id": "protocol-cds-protocol-w---wow",
     "title": "Protocol W - Wow! (can also be used for...)",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-w---skin-conditions.html",
+    "page_url": "protocols/protocol-cds-protocol-w---wow.html",
     "summary": "Skin condition protocol using CDS for dermatological issues and topical support.",
     "tags": "cds protocol skin conditions",
     "indications": "Wow! General wide application",
@@ -3186,11 +3186,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-x-general-wellness",
+    "id": "protocol-cds-protocol-x---sexual-intercourse",
     "title": "Protocol X - Sexual intercourse",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-x---general-wellness.html",
+    "page_url": "protocols/protocol-cds-protocol-x---sexual-intercourse.html",
     "summary": "General wellness protocol using CDS for overall health maintenance and preventive support.",
     "tags": "cds protocol wellness general",
     "indications": "Sexual intercourse Sexual health",
@@ -3213,11 +3213,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-y-parasite-support",
+    "id": "protocol-cds-protocol-y---injection-of-cdi",
     "title": "Protocol Y - Injection of CDI",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-y---parasite-support.html",
+    "page_url": "protocols/protocol-cds-protocol-y---injection-of-cdi.html",
     "summary": "Parasite support protocol using CDS for parasitic conditions and intestinal wellness.",
     "tags": "cds protocol parasite support",
     "indications": "Injection of CDI Injection protocol",
@@ -3240,11 +3240,11 @@
     "evidence": {}
   },
   {
-    "id": "protocol-cds-protocol-z-emergency-support",
+    "id": "protocol-cds-protocol-z---frequencies-biotrohn",
     "title": "Protocol Z - Frequencies / Biotrohn\u00ae, frequency generator",
     "category": "Protocol",
     "collection": "protocols",
-    "page_url": "protocols/protocol-cds-protocol-z---emergency-support.html",
+    "page_url": "protocols/protocol-cds-protocol-z---frequencies-biotrohn.html",
     "summary": "Emergency support protocol using CDS for acute conditions and urgent wellness needs.",
     "tags": "cds protocol emergency support",
     "indications": "Frequencies / Biotrohn Frequency generator",
